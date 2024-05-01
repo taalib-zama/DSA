@@ -1,0 +1,22 @@
+Q. given a string str made of alphabets only. Create a function that returns the length of the longest substring
+    without repeating characters.
+
+
+    steps : 1. find-longest substring length (maxLength).
+            2. substring - part of string where characters are contigious.
+            3. without repeating chars - each char must appear once.
+
+
+2 pointer technique/
+ex : abcdbeghef.
+Substrings :
+  1. abcd
+  2. cdbegh
+  3. ghef
+
+Steps : building the first substring, add the first character, no duplicate character, so we add the socond and so on,
+    Now if we try to add the fifth character, here we will have problem because we have already added letter 'b'
+    in our substring. So we can remove characters from left, so we keep removing until the first occourence of
+    repeated character.In above we remove the above 2 characters.
+    Now we continue with our 2nd substring i.e "cdbegh". but for the letter 'e',we already have an e in our substring.
+    So we remove all the parts till first occourence of 'e'. Now we take the max length of abce 2.

@@ -1,0 +1,2 @@
+solutin aproach : since this can be found using the average of arr. we can use duvude nd conquer method
+to count number of elemtns with power >average power o subarray.

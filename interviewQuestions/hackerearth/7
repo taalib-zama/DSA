@@ -1,0 +1,16 @@
+which java collection provides a constant time on an average for basic operations like add, remove and
+contains.(Assuming there is no hashing).
+
+Ans - > Hashset
+
+
+8 -How many String objects will be created in the following :
+   String a = new String("Interviewbit");
+   String b = new String("Interviewbit");
+   String c = "Interviewbit";
+   String d = "Interviewbit";
+
+Ans - 4 objects will be created.
+
+
+

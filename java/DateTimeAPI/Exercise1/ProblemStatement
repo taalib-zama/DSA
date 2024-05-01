@@ -1,0 +1,18 @@
+Create an age calculator that determines the age from a given date, up to the day precision.
+
+Use the LocalDate class.
+
+Sample:
+
+Input:
+
+            "2/11/1991"
+
+Output:
+
+              Date: 02-11-1991
+
+              You are 22 years, 7 months and 11 days old.
+
+Note: Check the project using SonarLint to maintain the coding standards. Ignore the violations which occur due
+to "System.out" statements.

@@ -1,0 +1,13 @@
+1 .calculate sum of each subarray, keeping track of max one.
+
+ex : arr = [4,-7,1,5].
+    lets see different subarays, for that we use two pointers that represent the boundaries of actual subarray,
+    a) i and j are both equal to 0 , we have subarray that contains only element 4.
+    b) then we increment j, we get subarray that goes from index 0-1
+    c)) we increment j again, we get the subarray from index 0-2 i.e. [4,-7,1].
+    d) increment j again, subarray : [4,-7,1,5].
+
+    e) next we move i to start reading subarrays from index 1,
+
+    for each subarray we will use  another for loop to calculate the sum of that subarray,
+    then we compare it with the maximum sum we found until now to see if its replaced.

@@ -1,0 +1,13 @@
+Q. Given an array of integer 'arr' and integer 'k'. Create a boolean function that checks if  there exists two
+elements in array such that we get k upon adding them.
+
+Ex 1 :
+        arr = [4,5,1,7,2]
+        k = 3.
+        Sum  = 1 + 2.
+
+Ex 2 :
+        arr = [3,5,7,8,9]
+        k = 10
+        sum = 3 + 9.
+

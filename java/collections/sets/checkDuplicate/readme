@@ -1,0 +1,7 @@
+The below code contains a list of users. There are duplicate entries for emailId.
+Two users are considered to be the same if their emails are the same.
+Observe the below code which uses Set to detect and remove the duplicates.
+
+Execute the code below and check are they really removing duplicates?
+
+Uncomment equals() and hashCode() and observe the output.

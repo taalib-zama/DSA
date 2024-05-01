@@ -1,0 +1,11 @@
+1 using a hashtable.     o(1) = for lookup in hashtable.
+    store the character we already visited.
+       EX : str = 'responsible'.
+       in beginning we have empty hashtable.
+        1 . {r:true}
+        2 . {e:true}
+        .
+        .
+        .
+        6. {n : true}
+        7. its already in hashtable -> return true.

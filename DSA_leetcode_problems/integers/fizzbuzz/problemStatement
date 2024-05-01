@@ -1,0 +1,3 @@
+Q . write program that outputs the string representation of numbers from 1 to n, but for multiples of 3 it should print
+    "Fizz" instead of the number and for multiples of five output "Buzz". For numbers which are multiples of both 3 and 5
+    output "FizzBuzz".

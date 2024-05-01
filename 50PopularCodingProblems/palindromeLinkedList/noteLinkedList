@@ -1,0 +1,6 @@
+
+    LL : Its a sequential list of object but this time arrays are not involved. In a LL each item in a list
+    is aware of the next item in the list because each item in list contains a link to next item.
+
+    This means we have to store some extra info with each item.
+    Each item (data+reference) is referred as node and the first item in list the head of the list.

@@ -1,0 +1,47 @@
+-> Floyd's cycle detection algorithm (tortoise and hare).
+    It is used to detect cycles in an algorithm.
+
+-----------------------------------------------------------------------------------------------------------
+(a cycle in  Linked list is a group of nodes that form a loop, so the last element points to this first element.
+The first node of the cycle has the particularity that  its the only node that is being pointed to by two nodes,
+the one before it and the one last node of the cycle.)
+------------------------------------------------------------------------------------------------------------
+
+Now let's see how this algorithms works to detect cycles in a LinkedList.
+For this, we will need fast and slow pointer technique.Thats why its called tortoise and hare.
+So we take tortoise and hare, and we put them on this first node.
+    Then the concept is that the tortoise, which is slow pointer, moves by 1 node at a time.
+                i.e. tortoise = tortoise.next
+
+    And the hare which is the fast pointer moves by 2 nodes at a time.
+                i.e. hare = hare.next.next.
+
+    1. and we keep repeating the process, until tortoise and hare meet.
+    2. Now since both the tortoise and hare has met, we pick the tortoise naad put it back to first node and
+        hare is kept at the current node position.
+    3. Nowe we start moving tortoise and hare 1 node at a time, until they meet.
+    4. now when they met again, this will be the first node of the cycle. (THIS WAS REQUIRED)
+
+So by applying this algorithm, we could detect the cycle and where it begins.
+
+
+
+============================================================================================
+In this problem, we will transform our array into linked list, where each element points to another
+element depending on this value
+
+Ex : given arr = [5,2,4,2,1,6,3]
+    First we transform our elements to nodes, and we start putting our links.
+
+    the first element has value 5, so it points to index 5 i.e.6.
+        second element has value 2, so it points to index 2 i.e.4.
+        third      "    ""    "  4, "   "    "     "  '   4, i.e.1.
+        fourth     "    "   "    2,                       2, i.e.4. //this is 2 pointers.
+        fifth       "   "   "    1, "   "    "      "  "  1, i.e.2.
+        sixth       "       "    3,  "  "   "       "   " 3, i.e 2.
+
+
+============================================================================
+why this method works ?
+
+

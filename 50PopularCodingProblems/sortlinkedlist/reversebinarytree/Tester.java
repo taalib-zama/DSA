@@ -1,0 +1,22 @@
+package sortlinkedlist.reversebinarytree;
+
+public class Tester {
+    public static void main(String[] args) {
+        /*given tree
+                             4
+                           /    \
+                         6       7
+                       / \      /
+                     3    5    1
+
+         */
+        BinaryTree binaryTree = new BinaryTree(
+                4, new BinaryTree(6,new BinaryTree(3), new BinaryTree(5)),
+                new BinaryTree(7,new BinaryTree(1), new BinaryTree(2))
+        );
+        System.out.println(binaryTree);             //calls toString method of BinaryTree class.
+        Reversal rev   = new Reversal();
+        rev.reverse(binaryTree);
+        System.out.println(binaryTree);
+    }
+}

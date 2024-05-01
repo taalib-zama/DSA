@@ -1,0 +1,20 @@
+till now we have O(nlogn) complexity.
+What if we can check if an element exists in the array without traversing it again.
+
+Ex: [8,2,9,5,10,1]
+when we traverse the array once and arrive at 10, we can say we need 12-10 = 2 more to complete the sum, and i must be
+having it found while traversing the array. So we can form the pair.
+
+We need to store the values that we alrea
+        - It has O(1) lookupdy visited, until we find the other element of the pair.
+                            The best way to perform this task is to use HashTable. in average. and O(1) insertion
+visited values need to stored in hashtable, as soon as we find thatvw e already visited k, we return true.
+
+1. [8,2,9,5,10,1]
+2 . {} = empty hashtable at beginning.
+3. i = 0 -> Does 12-8 = 4 exist in hastable ? No -> we store 8 and we continue.
+4. i = 1 -> does 12-2 = 10 exists in hastbale ? No -> we store 2 and continue.
+5  i = 4 -> Does 12-10 =2  exists in hashtable ? Yes -> we return true.
+
+
+TIME COMMPLEXITY = O(n).

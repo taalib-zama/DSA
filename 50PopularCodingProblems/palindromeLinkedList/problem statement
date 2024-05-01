@@ -1,0 +1,14 @@
+Q. Given  linkedList of integers "LIST". Create a boolean function that checks if it's a palindrome linked list
+in constant space complexity.
+
+ex : 5-4-7-8-7-4-5.
+
+since for alist to be palindrome, we have to compare every elements from middle till end.
+i.e. elemets in left == elements in right.
+
+since this is a singly linked list, so we can't go backwards in the list, (while comparing from middle).
+We can always search for the position of the right pointer at each iteration, then we compare.
+
+In other words , in each iteration, put the right pointer at the beginning, the we use a loop to take it to the
+right position of actual pair....and we compare the node at left with the node at right. If they're different
+the list isn't palindrome, we return false.

@@ -1,0 +1,6 @@
+abstract datatatype : its not concrete.
+for abstract datatype there is an interface involved.
+
+this list implement the java.util.list interface.
+
+list : an ordered collection(Also known as sequence).

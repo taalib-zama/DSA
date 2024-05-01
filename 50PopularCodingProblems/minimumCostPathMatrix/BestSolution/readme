@@ -1,0 +1,8 @@
+/*
+    By using dynamic programming:
+    Basically, we create a matrix, where each element represents the minimum cost of
+    reaching that element from top right
+    Time complexity: O(n*m)
+    Space complexity: O(n*m)
+*/
+

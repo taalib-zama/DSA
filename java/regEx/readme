@@ -1,0 +1,8 @@
+Instructions for example 2 :
+Leeroy wants to validate the personal details which should be in the following format:
+   - Name:  It can only contain characters and spaces.
+   - Email  Id:  <firstname>.<lastname>@<any>.<com/in>
+   - User Id:  <firstname>#<any 2 digits><lastname>
+   - Account Serial Id:  WoW-<any 7 alphabetic code><any 5 digits><Same 7 alphabetic code>_<any 5 alphanumeric code>
+   - On successful execution of code it will return the result as "true" or "false", let's see how we can achieve this
+        using Regex.

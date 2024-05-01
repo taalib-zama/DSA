@@ -1,0 +1,32 @@
+package strings.longestcommonprefix;
+
+public class Solution {
+    public static String longestCommonPrefix(String[] strs) {
+        //using stringbuilder
+        // Longest common prefix string
+        StringBuilder longestCommonPrefix = new StringBuilder();
+        // Base condition
+        if (strs == null || strs.length == 0) {
+            return longestCommonPrefix.toString();  //return empty string.
+        }
+        // Find the minimum length string from the array
+        int minimumLength = strs[0].length();
+        for (int i = 1; i < strs.length; i++) {
+            minimumLength = Math.min(minimumLength, strs[i].length());
+        }
+        // Loop for the minimum length
+        for (int i = 0; i < minimumLength; i++) {
+            // Get the current character from first string
+            char current = strs[0].charAt(i);
+            // Check if this character is found in all other strings or not
+            for (String str : strs) {
+                if (str.charAt(i) != current) {
+                    return longestCommonPrefix.toString();
+                }
+            }
+            longestCommonPrefix.append(current);
+        }
+        return longestCommonPrefix.toString();
+    }
+
+}

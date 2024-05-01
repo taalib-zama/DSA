@@ -1,0 +1,5 @@
+The MVCMain class fetches the employee data from the method where we have entered the values.
+Then it pushes those values in the model. After that, it initializes the view (EmployeeView.java).
+When view is initialized, the Controller (EmployeeController.java) is invoked and bind it to Employee class
+ and EmployeeView class.
+ At last the updateView() method (method of controller) update the employee details to be printed to the console.

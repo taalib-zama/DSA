@@ -1,0 +1,13 @@
+In Java polymorphism is mainly divided into two types:
+
+    Compile-time Polymorphism- static polymorphism achieved by function overloading or operator overloading.
+    Runtime Polymorphism
+
+
+note : But Java doesn’t support the Operator Overloading.
+
+When an object of child class is created, then the method inside the child class is called. This is because
+ The method in the parent class is overridden by the child class. Since The method is overridden,
+ This method has more priority than the parent method inside the child class. So, the body inside the
+  child class is executed.
+

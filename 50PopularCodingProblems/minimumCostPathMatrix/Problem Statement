@@ -1,0 +1,15 @@
+Q . /*
+    Given a matrix of n*m integers, where each cell represents the cost of passing through that cell
+    Return the minimum cost of path required to reach bottom right corner from top left corner cell
+    We can only move to the right or bottom of cell, left and top moves are not allowed
+     */
+
+
+
+
+
+     ============================================================================================
+     use of Dynamic programming :
+     Dynamic Programming (DP) is an algorithmic technique for solving an optimization problem by breaking
+     it down into simpler subproblems and utilizing the fact that the optimal solution
+     to the overall problem depends upon the optimal solution to its subproblems.

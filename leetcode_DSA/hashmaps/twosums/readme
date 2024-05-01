@@ -1,0 +1,10 @@
+Example 1: 1. Two Sum
+
+Given an array of integers nums and an integer target, return indices of two numbers such that they add up to target.
+You cannot use the same index twice.
+
+
+The brute force solution would be to use a nested for loop to iterate over every pair of indices and check if the sum
+is equal to target. This will result in a time complexity of O(n2)
+
+

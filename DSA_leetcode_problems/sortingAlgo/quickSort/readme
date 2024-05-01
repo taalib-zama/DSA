@@ -1,0 +1,17 @@
+Quicksort is another Divide and Conquer algorithm. It picks one element of an array as the pivot and sorts all of the
+ other elements around it, for example smaller elements to the left, and larger to the right.
+The input list is divided into two sub-lists by an element called pivot; one sub-list with elements less than the pivot and another one with elements greater than the pivot. This process repeats for each sub-list.
+
+Finally, all sorted sub-lists merge to form the final output
+
+ time complexity = O(nlogn)
+
+ex :
+Arr[] = {5, 9, 4, 6, 5, 3}
+Let's suppose we pick 5 as the pivot for simplicity
+We'll first put all elements less than 5 in the first position of the array: {3, 4, 5, 6, 5, 9}
+We'll then repeat it for the left sub-array {3,4}, taking 3 as the pivot
+There are no elements less than 3
+We apply quicksort on the sub-array in the right of the pivot, i.e. {4}
+This sub-array consists of only one sorted element
+We continue with the right part of the original array, {6, 5, 9} until we get the final ordered array

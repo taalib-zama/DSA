@@ -1,0 +1,18 @@
+Q. Given a non empty array of integers arr. Create a function that returns the index of peak element. We
+    consider an element as peak if its greater than or equal to its neighbours, the next and its previous element.
+  -The first and last element element have atmost 1 neighbour only.
+  -If there are multiple peaks in arr, just return the index of one of them.
+
+  ex : [1,5,8,8,3,9]
+        returned index  = 3.
+
+  1. either the element is first element or its greater than or equal previous element and either its the
+    last element ot its greater than or equal to  next element
+
+    Solution breakdown :
+    1. for first element 1 , here it has only one neighbour. Comparing with its neighbour its less than 5, so
+    its not a peak.
+
+    2. 2nd element 5 is greater than its left neighbour but smaller than its right neighbour. So its not a peak.
+    3. 3rd element 8 is greater than previous element and equal to next element, so it can be a peak.
+

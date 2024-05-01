@@ -1,0 +1,23 @@
+You are given a string s consisting of lowercase English letters. A duplicate removal consists
+of choosing two adjacent and equal letters and removing them.
+
+We repeatedly make duplicate removals on s until we no longer can.
+
+Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique.
+
+
+
+Example 1:
+
+Input: s = "abbaca"
+Output: "ca"
+Explanation:
+For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible
+move.  The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca".
+
+
+approach : 0. iterate through string.
+            1. a - peek into stack if empty, don't do anyhting, else peek. If peek = element, do pop and skip put,
+            else put in stack.
+           2. b - peek into stack, if same, do a pop and skip put, else put into stack.
+           3. b - peek into stack, since peek == element, do a pop and skip put.

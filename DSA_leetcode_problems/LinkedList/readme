@@ -1,0 +1,7 @@
+List : List is an abstract datatype.
+
+when it comes to abstract datatype normally there is an interface involved.
+In java most of the lists implement java.util.list interface.
+
+ABSTRACT DATATYPE : doesn't care how datta is organized. Dictates the operations that can be performed. abstract datatype is usualy an interface.
+So in case of list any class that implements the LIST INTERFACE IS A LIST

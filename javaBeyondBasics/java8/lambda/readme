@@ -1,0 +1,2 @@
+A function that can be created without belonging to any class.
+A lambda expression can be passed around as if it was an object

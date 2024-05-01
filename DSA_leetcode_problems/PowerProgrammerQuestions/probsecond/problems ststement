@@ -1,0 +1,11 @@
+given an array arr representing the powers of players, each player can fight with other player having less power and can take it power.
+Find all possible players who can win the tournament by eliminating other players.
+
+ex :
+        int[] array1  = {2,3,4};
+            sol : 2 beats 3 and the becomes 5 which collectively can beat 4;
+            o/p 3 (3,4 can be come champ)
+        int[] array2= {1,1,1};
+            sol : any one of above can beat each other and become cham so o/p - 3.
+        int[] arr3 = {2,2,10,10};
+            sol : o/p : 10,10.

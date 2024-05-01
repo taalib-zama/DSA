@@ -1,0 +1,18 @@
+Q .
+Given an integer x, return true if x is palindrome integer.
+
+An integer is a palindrome when it reads the same backward as forward.
+
+For example, 121 is a palindrome while 123 is not.
+
+
+Solution :
+    1. REVERSE THE INTERGER
+    2. CHECK IF SAME OR NOT
+    3. REVERSING AN INTERGER MIGHT RESULT IN OVERFLOW.
+    4. SO WE JUST REVERSE THE FIRST/LAST HALF OF INTEGER.
+        If length of given interger is even then we split integer at middle
+        then we reverse the 2nd half.
+
+        If integer is of oddlength ex : 121. then we split the integer at 1,21 and reverse 21 as 12, remove last digit \
+        of reversed part, then we compare the leftover with other half.

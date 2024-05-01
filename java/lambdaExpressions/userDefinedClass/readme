@@ -1,0 +1,6 @@
+Let us take alook at how objects of a User Defined Class can be passed as arguments to Built-In Functional Interfaces and Lambda Expressions with the following code.
+
+
+
+Note: Comparator  (Comparable<T>) is a Built-In Functional Interface, which is used in ordering a given collection.
+It does the custom ordering of collections by taking Lambda Expressions as arguments, which provide the format for ordering.

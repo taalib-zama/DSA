@@ -1,0 +1,11 @@
+The use of the Sliding Window technique can be done in a very specific scenario, where the size of the window for
+computation is fixed throughout the complete nested loop. Only then the time complexity can be reduced.
+
+
+To know, Where we use the Sliding Window then we remember the following terms which is mentioned below:
+
+Array, String, Sub Array, Sub String, Largest Sum, Maximum Sum, Minimum Sum
+
+
+
+example : contigious subarray problems,

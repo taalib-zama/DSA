@@ -1,0 +1,34 @@
+Q. Given a binary tree of integers 'root'. Write a function reverses it left to right in-place.
+
+    Reversing a binary tree means the left most node will become the rightmost node and vice-versa.
+
+    Ex :
+                     /*given tree
+                                                  6
+                                                /    \
+                                              8       13
+                                            / \      /
+                                          2    1    5
+                                         / \
+                                        7   3
+
+                              */
+                     After reversal :
+                                       6
+                                     /    \
+                                   13      8
+                                    \     / \
+                                     5   1   2
+                                            / \
+                                            3  7
+
+
+
+For datastructures like LL and Trees where we have nodes and links. In these when dealing with swapping,
+reversing, sorting or modify the datastructure, we have 2 ways of solving, we can either deal with values or
+with links.
+
+In our case since we are not having a symmertrical tree, swapping values will be atypical task as we can't find
+the significant node on other side while swapping.
+
+- By modifying links :

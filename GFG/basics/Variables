@@ -1,0 +1,69 @@
+A variable is a name given to a memory location. It is the basic unit of storage in a program.
+
+-The value stored in a variable can be changed during program execution.
+-A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.
+-In Java, all the variables must be declared before use.
+
+There are three types of variables in Java:
+    Local Variables
+    Instance Variables
+    Static Variables
+
+1. local variable : A variable defined within a block or method or constructor is called local variable.
+                    These variables are created when the block is entered or the function is called and destroyed after exiting from the block or when the call returns from the function.
+                    The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.
+                    Initilisation of local variable is mandatory.
+                    ex :
+                    public void StudentAge()
+                        {   //local variable age
+                            int age = 0;
+                            age = age + 5;
+                            System.out.println("Student age is : " + age);
+                        }
+
+
+2.Instance variable : Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
+                       As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+                       Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
+                       Initilisation of Instance Variable is not mandatory. Its default value is 0
+                       Instance Variable can be accessed only by creating objects.
+                       ex : class Marks
+                            {
+                                //These variables are instance variables.
+                                //These variables are in a class and are not inside any function
+                                int engMarks;
+                                int mathsMarks;
+                                int phyMarks;
+                            }
+                       As you can see in the above program the variables, engMarks , mathsMarks , phyMarks are instance variables. In case we have multiple objects as in the above program, each object will have its own copies of instance variables
+
+3. static variable : Static Variables: Static variables are also known as Class variables.
+                     -These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method, constructor, or block.
+                     -Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+                     -Static variables are created at the start of the program execution and are destroyed automatically when the execution ends.
+                     -Initilisation of Static Variable is not mandatory. Its default value is 0
+                     -If we access the static variable like Instance variable (through object), compiler will show the warning message and it wont hault the program. Compiler will replace the object name to class name automatically.
+                     -If we access the static variable without classname, the compiler will automatically append the class name.
+                     -To access static variables, we need not create any object of that class, we can simply access the variable as:
+                            class_name.variable_name;
+                            ex : class Article {
+                                    // static variable salary
+                                    public static double rating;
+                                    public static String name = "Variables Declaration";
+
+
+
+Instance variable Vs Static variable
+
+
+Each object will have its own copy of instance variable whereas We can only have one copy of a static variable per class irrespective of how many objects we create.
+Changes made in an instance variable using one object will not be reflected in other objects as each object has its own copy of instance variable. In case of static variable, changes will be reflected in other objects as static variables are common to all object of a class.
+We can access instance variables through object references and Static Variables can be accessed directly using class name.
+Syntax for static and instance variables:
+class Example
+    {
+        static int a; //static variable
+        int b;        //instance variable
+    }
+
+

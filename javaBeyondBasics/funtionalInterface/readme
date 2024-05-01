@@ -1,0 +1,15 @@
+A functional interface(SAM interface = single abstract method interface) is an interface that contains only one
+abstract method. They can have only one functionality to exhibit.
+
+ lambda expressions can be used to represent the instance of a functional interface. A functional interface can have any
+  number of default methods. Runnable, ActionListener, Comparable are some of the examples of functional interfaces.
+=====================================================================================================================
+Functional interfaces are used and executed by representing the interface with an annotation called @FunctionalInterface.
+As described earlier, functional interfaces can contain only one abstract method. However, they can include any quantity
+ of default and static methods.
+
+================================================================================================================
+In Functional interfaces, there is no need to use the abstract keyword as it is optional to use the abstract keyword
+ because, by default, the method defined inside the interface is abstract only. We can also call Lambda expressions as
+ the instance of functional interface.
+

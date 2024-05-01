@@ -1,0 +1,8 @@
+The best data structure that comes to mind to keep track of top ‘K’ elements is Heap. Let’s see if we can use a
+heap to find a better algorithm.
+
+If we iterate through the array one element at a time and keep ‘K’ largest numbers in a heap such that each
+time we find a larger number than the smallest number in the heap, we do two things:
+
+1. Take out the smallest number from the heap, and
+2. Insert the larger number into the heap.

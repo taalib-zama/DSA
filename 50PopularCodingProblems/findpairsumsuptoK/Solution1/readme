@@ -1,0 +1,18 @@
+ex : [3,5,7,8,9]
+k = 10
+
+1. taking the first and last element.
+    3, 9  = 12. since 12 >10 we can either decrement the left selection or right end selection.
+2. to choose this, we use a sorted array, now if we increment the left index we get,
+                 5 + 9 = 14   which is useless as pair sum will either increase or remain same due to sroted array.
+
+3. so moving the right index left will decrease our sum.
+4. we use 2 point technique, one index starts with first index and other at last
+    while left > right
+        if(arr[left] + arr[right] == k
+            return true.
+        else if arr[left] + arr[right] < k   --> we have to make it bigger so we increment left pointer.
+                    left +=1
+        else  --> it means our sum is bigger so we decrement right pointer to decrease the sum.
+                    right -=1
+    return false.

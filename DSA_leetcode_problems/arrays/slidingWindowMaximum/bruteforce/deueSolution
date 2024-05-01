@@ -1,0 +1,5 @@
+deque is a DS where we can add/remove elements from the end and also from the start.
+
+approach :
+1. create and empty deque of length k. iterate array through left to right.
+2.

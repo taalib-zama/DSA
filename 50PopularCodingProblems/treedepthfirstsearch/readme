@@ -1,0 +1,33 @@
+Q. Given a binary tree of integers 'root'. Create  functions to print the element. One for preorder
+ traversal, one for inorder traversal, and one in postorder traversal. (DFS)
+ ==================================================================================================
+BINARY TREE TRAVERSAL :
+preorder : print root data, then print left subtree, then print right subtree.
+
+Inorder - print left subtree, print root data, then print right subtree.
+
+post order - print left subtree, then print right subtree, then print root data.
+
+===============================================================================================
+- > why is tree traversal particualar - beacuse its not a linear datastructure. For a tree we don;t have 2 main
+    start/end point so we have to find a way to traverse all nodes. For this we have  main ways to do it :
+                1. BFS -  Breadth first search - we traverse the tree level-by-level.
+                2. DFS - Depth first search - where we go deep into the tree, the backtrack and then to other
+                        side and so on.
+
+=================================================================================
+Input :
+ /*given tree
+                              4
+                            /    \
+                          6       7
+                        / \      /  \
+                      3    5    1     2
+
+          */
+
+O/P :
+         preorder - > 4,6,3,5,7,1,2.
+         inorder - 3,6,5,4,1,7,2.
+         postorder - 3,5,6,1,2,7,4.
+

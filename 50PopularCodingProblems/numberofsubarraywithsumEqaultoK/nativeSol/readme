@@ -1,0 +1,2 @@
+A simple solution is to traverse all the subarrays and calculate their sum.
+If the sum is equal to the required sum, then increment the count of subarrays. Print final count of subarray.

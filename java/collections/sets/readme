@@ -1,0 +1,5 @@
+"userDefinedObjectComp" = demo to show user defined Set definition and how comparison of objects works. To compare
+properly we override methods Equals() and Hashcode() in User defined class
+
+"DemoSet" = demonstrates, how to create and initialize the various types of the set like HashSet, TreeSet and
+            LinkedHashSet.The methods of storing elements in each type of the set.

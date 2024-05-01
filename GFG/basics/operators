@@ -1,0 +1,105 @@
+-----------Arithmetic Operators: They are used to perform simple arithmetic operations on primitive data types.
+* : Multiplication
+/ : Division
+% : Modulo
++ : Addition
+- : Subtraction
+
+
+----------Unary Operators: Unary operators need only one operand. They are used to increment, decrement, or negate a value.
+- :Unary minus is used for negating the values.
++ :Unary plus is used for giving positive values. Only used when deliberately converting a negative value to a positive value.
+++ :Increment operator is used for incrementing the value by 1. There are two varieties of increment operator.
+Post-Increment : Value is first used for computing the result, and then it is incremented.
+Pre-Increment : Value is incremented first, and then the result is computed.
+-- : Decrement operator is used for decrementing the value by 1. There are two varieties of decrement operator.
+Post-decrement : Value is first used for computing the result, and then it is decremented.
+Pre-Decrement : Value is decremented first, and then the result is computed.
+! : Logical not operator is used for inverting a boolean value.
+
+
+-----------assignment operator-----------
+Assignment Operator : '=' Assignment operator is used to assign a value to any variable. It has a right to left associativity, i.e., the value given on the right hand side of the operator is assigned to the variable on the left; therefore, right hand side value must be declared before using it or it should be a constant. General format of assignment operator is,
+
+
+-----------relational operator---------already know
+----------logical operator-----------
+&& , Logical AND : returns true when both conditions are true.
+|| , Logical OR : returns true if at least one condition is true.
+
+
+---------ternary operator------------
+Ternary operator : Ternary operator is a shorthand version of if-else statement. It has three operands, and hence the name ternary. General format is:
+        condition ? if true : if false
+
+ The above statement means that if the condition evaluates to true, then execute the statements after the '?' else execute the statements after the ':'.
+ EX :
+ public static void main(String[] args)
+     {
+         int a = 20, b = 10, c = 30, result;
+
+         //result holds max of three
+         //numbers
+         result = ((a > b) ? (a > c) ? a :
+                    c : (b > c) ? b : c);
+         System.out.println("Max of three numbers = "+result);
+     }
+
+     O/P :
+     Max of three numbers = 30
+
+
+
+----------------BITWISE operator----------
+  These operators are used to perform manipulation of individual bits of a number. They can be used with any of the
+   integer types. They are used when performing update and query operations of Binary indexed tree.
+
+& , Bitwise AND operator: returns bit by bit AND of input values.
+| , Bitwise OR operator: returns bit by bit OR of input values.
+^ , Bitwise XOR operator: returns bit by bit XOR of input values.
+~ , Bitwise Complement Operator: This is a unary operator which returns the one's compliment representation of the input value, i.e., with all bits inversed.
+
+    ex :
+       public static void main(String[] args)
+        {
+            // Initial values
+            int a = 2;
+            int b = 7;
+
+            System.out.println("a&b = " + (a & b)); // 0010 & 0111 = 0010 = 2
+            System.out.println("a|b = " + (a | b)); // 0010 | 0111 = 7
+            System.out.println("a^b = " + (a ^ b)); // 0010 ^ 0111 = 5
+            System.out.println("~a = " + ~a); // 2's complement of 2 = -3
+        }
+
+---------------shift operators--------------------------------------
+These operators are used to shift the bits of a number left or right thereby multiplying or dividing the number by
+ two respectively. They can be used when we have to multiply or divide a number by two.
+ General format-  number shift_op number_of_places_to_shift;
+
+ << , Left shift operator: shifts the bits of the number to the left and fills 0 on voids left as a result. Similar effect as of multiplying the number with some power of two.
+ >> , Signed Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit depends on the sign of initial number. Similar effect as of dividing the number with some power of two.
+ >>> , Unsigned Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit is set to 0.
+
+
+
+----------precedence and associativity-----------
+Precedence and associative rules are used when dealing with hybrid equations involving more than one type of operator. In such cases, these rules determine which part of the equation to consider first as there can be many different valuations for the same equation.
+    Operators	Associativity	Type
+    ++,--	Right to Left	Unary Postfix
+    ++,--,+,-,!	Right to Left	Unary Prefix
+    /,*,%	Left to Right	Multiplicative
+    +,-	Left to Right	Additive
+    <<, >>, >>>	Left to Right	Shift
+    <,<=,>,>=	Left to Right	Relational
+    ==,!=	Left to Right	Equality
+    &	Left to Right	Boolean Logical AND
+    ^	Left to Right	Boolean Logical XOR
+    |	Left to Right	Boolean Logical OR
+    &&	Left to Right	Conditional AND
+    ||	Left to Right	Conditional OR
+    ? :	Right to Left	Conditional
+    =,+=,-=,*=,/=,%=	Right to Left	Assignment
+
+
+Precedence and Associativity: There is often confusing when it comes to hybrid equations i.e. , the equations having multiple operators. The problem is, which part to solve first. There is a golden rule to follow in these situations. If the operators have different precedence, solve the higher precedence first. If they have the same precedence, solve according to associativity, that is either from right to left or from left to right. Explanation of the below program is well written in comments within the program itself.

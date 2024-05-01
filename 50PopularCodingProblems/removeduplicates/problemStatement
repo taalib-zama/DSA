@@ -1,0 +1,7 @@
+Q . Given an array of integers, create a function that returns an array that contains the values of arr
+ without duplicates.(order doesn't matters.)
+
+ ex : [4,2,3,2,4,4,1].
+ O/P : [4,3,2,1]
+
+

@@ -1,0 +1,53 @@
+WRAPPER CLASS METHODS :
+Wrapper classes are helpful in converting numeric strings into numeric datatypes (for example String-to-int,
+    String-to-double etc.). And so, we have supporting methods like parseDouble(), parseInt(), etc.
+
+        String sum = "123";
+        int mySum = Integer.parseInt(sum);// Here 'mySum' would be holding the integer 123
+
+Also, typecasting fails in converting a wrapper type to another type. So, we can use methods such as intValue(),
+byteValue(), floatValue() etc. to do such conversions. Let's take a look at the following example:
+    Integer phoneNo = 44281234;
+    Long phoneNo = phoneNo.longValue(); // Converts Integer into a Long value
+
+* methods of Character wrapper class :
+    Character alphaObj = new Character('A');
+    Character digitObj = new Character('5');
+
+Following are some of the methods which make our task to manipulate the data, easy.
+    isDigit() - checks if a given character is Digit
+    isUpperCase() - checks if a given character is LowerCase
+    toString() - converts Character to String
+    charValue() - converts Character to char primitive data type
+    toLowerCase() - converts Character to LowerCase
+
+boolean result1 = Character.isDigit(digitObj); // Output :- true
+boolean result2 = Character.isUpperCase(alphaObj); // Output :- true
+String val = alphaObj.toString(); // val = "A"
+char beta = alphaObj.charValue(); // beta = 'A'
+char c = Character.toLowerCase('B'); // c = 'b';
+
+****************************************************************************************
+dIFFERENCE BETWEEN COMPARE() AND COMPARETO() :
+int result11 = Character.compare('A', 'b');
+System.out.println(result11); //-33
+Character anotherCharacter = new Character('b');
+int result22 = alphaObj.compareTo(anotherCharacter);
+System.out.println(result22); //-33
+
+- > in compare() we are comparing the two char values (In this case 'A' and 'b') and in compareTo() we are comparing
+    two objects of Character wrapper class.
+The working of both the methods is given below.
+
+1. compare() :-
+Comparing chars using compare which returns an int
+ It returns 0 if char1 == char2
+                 a value less than 0 if char1 < char2
+                 a value greater than 0 if char1 > char1
+
+2. compareTo() :-
+Comparing Character objects using compareTo which returns int
+ It returns 0 if obj1 == obj2
+                a value less than 0 if obj1 < obj2
+                a value greater than 0 if obj1 > obj2
+

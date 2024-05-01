@@ -1,0 +1,28 @@
+ /*
+        We use recursion
+        At each cell, we compute the cost if we make the right move and the bottom move
+        Then, we take the minimum of these two, and add it to the value of current cell and return
+        Edge cases:
+            If we are at the last row, we only compute the cost of right move because we cant make bottom move
+            If we are in the last column, we only compute the cost of bottom move because we cant make right move
+        Time complexity: O(2^(n*m))
+        Space complexity: O(n + m)
+     */
+
+
+     testcase :
+                3   12  4   7   10
+                6   8   15  11  4
+                19  5   14  32  21
+                1   20  2   9   7
+
+                Base cases : when we are at right bottom cell, i.e : i= n-1 and j =m-1, in such case we have no cell
+                from the bottom. so we just return matrix[i][j]
+
+                Second case : when we're on the last row, when i = n-1:
+                        in this we have no cell from bottom which means we can continue from rght only. Thus we return
+                        matrix[i][j] + minimumCostPath(matrix,i,j+1)
+
+                Third case : when we're at the last coloumn i.e when j = m-1
+                    In this case we have no cell from right, we can only goto the bottom, so we return matrix[i][j],
+                    + minimumCostPath(matrix,i, j+1)

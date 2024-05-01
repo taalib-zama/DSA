@@ -1,0 +1,13 @@
+In Java, an identifier can be a class name, method name, variable name, or label. For example :
+
+
+There are certain rules for defining a valid Java identifier. These rules must be followed; otherwise, we get
+a compile-time error
+
+-The only allowed characters for identifiers are all alphanumeric characters([A-Z],[a-z],[0-9]), '$'(dollar sign),
+and '_' (underscore).For example "geek@" is not a valid java identifier as it contain '@', which is a special character.
+
+-Identifiers should not start with digits([0-9]). For example "123geeks" is a not a valid java identifier.
+- Java identifiers are case-sensitive.
+- There is no limit on the length of the identifier but it is advisable to use an optimum length of 4 - 15 letters only.
+- Reserved Words can't be used as an identifier. For example "int while = 20;" is an invalid statement as while is a reserved word. There are 53 reserved words in Java.

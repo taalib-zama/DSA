@@ -1,0 +1,8 @@
+Q. Given an array of intergers arr, create a function that returns the sum of the subarray that has
+the greatest sum. And we don;t consider the empty arrays as a subarray.
+
+    subarray -> a subarray of arr is a contigious block of elemnts of arr.
+
+    ex : [1,4,2,6,3,7,8]
+    subarrays : [1,4,2] , [2,6,3,7]
+    Not a subarray :  [1,2,6].

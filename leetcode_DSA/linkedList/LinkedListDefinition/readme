@@ -1,0 +1,18 @@
+ linked list is a data structure that is similar to an array. It also stores data in an
+ ordered manner, but it is implemented using node objects (you will have a custom class that
+ defines the node object). Each node will have a "next" pointer,
+ which points to the node representing the next element in the sequence.
+
+
+ HEAD :
+ We call the node with the 1 the head because it is the start of the linked list. Usually,
+ you will want to keep a reference to the head. This
+ is because the head is the only node from where you can reach all elements in the linked list (y
+
+ ADVANTAGE :
+ The main advantage of a linked list is that you can add and remove elements at any position in
+ �
+ (
+ 1
+ )
+ O(1). The caveat is that you need to have a reference to a node at the position in which you want to perform the

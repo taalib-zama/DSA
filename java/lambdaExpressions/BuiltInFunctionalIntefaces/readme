@@ -1,0 +1,11 @@
+Different types of Built-In Functional Interfaces:
+
+- Function<T1,T2>: Function takes only a single argument of type T1 and returns a value of type T2.
+- Predicate<T>: Predicate takes only a single argument of type T and always returns a Boolean value.
+- BiPredicate<T1,T2>: BiPredicate takes two arguments, each of type T1 and T2, and returns a Boolean value.
+- Consumer<T>: Consumer consumes/takes only a single argument of type T, does operation/processing on it, and does not
+    return any value.
+- Supplier<T>: Supplier takes no arguments, and supplies/returns a value of type T.
+
+Note: Since Java 11 var, the local variable type inference, can be used for parameter types in a Lambda expression.
+It will infer the type of the data based on the functional interfaces.

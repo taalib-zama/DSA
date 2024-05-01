@@ -1,0 +1,20 @@
+OOPs refers to languages that use objects in programming, they use objects as a primary source to
+implement what is to happen in the code. Objects are seen by the viewer or user, performing tasks
+assigned by you. Object-oriented programming aims to implement real-world entities like inheritance,
+hiding, polymorphism etc. in programming. The main aim of OOP is to bind together the data and the
+functions that operate on them so that no other part of the code can access this data except that function.
+=========================================================================================================
+
+A class is a user-defined blueprint or prototype from which objects are created. It represents the set
+of properties or methods that are common to all objects of one type. Using classes, you can create
+multiple objects with the same behavior instead of writing their code multiple times.
+class consists of : Modifiers, Class name, Superclass, Interfaces, Body
+=========================================================================================================
+
+An object is a basic unit of Object-Oriented Programming that represents real-life entities.
+A typical Java program creates many objects, which as you know, interact by invoking methods.
+The objects are what perform your code, they are the part of your code visible to the viewer/user.
+
+state (Attributes), Behavior(methods), Identity (nique name given to an object that enables it to interact with other objects.)
+=========================================================================================================
+

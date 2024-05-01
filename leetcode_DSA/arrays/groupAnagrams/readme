@@ -1,0 +1,27 @@
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using
+all the original letters exactly once.
+
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+
+
+two strings are anagrams of each other if the sorted version of them is same.
+
+
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+
+Solution 1 : one way to group anangrams togerther would be take eaqch one of these string in input and sort them
+but time complecity id going to be nlogn and we have to do this m times .
+
+
+Solution 2 : since each character id going to be between [a-z], atmmost we'll have 6 unique characters. So for each of these strings
+the charc from a-z
+
+ex : eat = 1e, 1a, 1t
+
+using a hashmap with key as [1e,1a,1t] and value as string . so whatever string have pattern of count 1e1a1t, we'll
+add the string as value to its key grouping them together
+
+Time complexity fo this will be O(m) - where m is total no of string we have in string

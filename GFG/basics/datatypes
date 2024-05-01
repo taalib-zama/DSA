@@ -1,0 +1,17 @@
+Java is a statically typed and also a strongly typed language because in Java each type of data (such as integer, character, hexadecimal, packed decimal, and so forth) is predefined as part of the programming language and all constants or variables defined for a given program must be described with one of the data types.
+
+
+Java has two categories of data:
+    Primitive data (e.g., number, character)
+    Object data (programmer created types)
+
+
+Primitives :
+    boolean - 1 bit
+    byte - 8bits
+    char - 16 bits
+    short - 16 bits
+    int -  32 bits
+    float - 32 bits - -1.23e100f,2.45e100f
+    long - 64 bits - -1L,0L,1L
+    double - -3.45e300d,4.56e245d

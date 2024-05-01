@@ -1,0 +1,68 @@
+Lambda expressions :
+Lambda expressions basically express instances of functional interfaces (An interface with single abstract method is
+called functional interface. An example is java.lang.Runnable)
+
+
+Lambda Expression is a type of "anonymous" method, which is not bound to any identifier. And so,
+they do not belong to any class/type. It brings a new and important feature to Java known as "Functional Programming".
+A Lambda Expression enables a method to be passed as an argument to other methods, as and when required.
+
+
+The syntax for Lambda Expression is given by:
+        ( arguments ) -> { body }
+
+==========================================================================================================
+Ex :
+@FunctionalInterface
+interface Operation{
+
+    //method providing definition of lambda expression
+    public double calculations(double num1, double num2);                     //Line 1
+}
+
+Class Tester{
+main(){
+        //creating lambda expression
+        Operation adder =  (double x, double y)-> x + y;                  //Line 2
+
+        //executing lambda expression
+        double result = adder.calculations(5, 6);}
+        }
+============================================================================================================
+
+In Java, Lambda Expressions are of the "target type" defined by Functional Interfaces. In simple words, they need to
+follow the definition of an abstract method defined inside the Functional Interface.
+
+============================================================================================================
+Functional Interfaces can be classified into two types:
+
+- User-Defined Functional Interface:  These are the Functional Interfaces that are defined by the programmer.
+
+//User Defined Lambda Expression
+@FunctionalInterface
+interface Operation{
+	public double calculations(double num1,double num2);
+}
+
+
+- Built-In Functional Interface: In order to reduce the frequent usage of User-Defined Functional Interfaces,
+Java provides a series of inbuilt functional interfaces. A lambda expression can be of any of these types.
+Some of them being:
+
+ 1 .Function – It represents a function that takes a single input parameter and returns a single value/object.
+ For example:
+                Function<Long, Long> addNum = (value) -> value + 10;
+
+ 2. Predicate – It represents a function that takes a single value/object as a parameter, and returns true or false.
+ For example:
+                Predicate<Integer> checkAge = (age) -> age > 18;
+
+ 3 .Supplier – It represents a function that produces a value/an object without taking any input parameter.
+ For example:
+                Supplier<Integer> generateRandom = ()-> new Integer((int) (Math.random() * 100));
+
+ 4. Consumer – It represents a function that consumes or processes a value/an object without returning anything.
+ For example:
+                Consumer<String> printValue = (name)-> System.out.println(name);
+
+====================================================================================================================

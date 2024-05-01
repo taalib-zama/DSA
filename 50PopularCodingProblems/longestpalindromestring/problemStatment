@@ -1,0 +1,16 @@
+Q. given a string str made of alphabetical letters only, create a function that return the length of longest palindrome
+string that can be made from letters of  str.
+
+ex :
+ 1 . str = "abbaba".
+     o/p - 5.
+     longest palindrome : baaab
+
+ 2. str = "abbabab"
+ o/p - 7.
+ longest palindrome = bbaaabb.
+
+
+
+prcess of sol :
+given str : "abdccdceeebebc".

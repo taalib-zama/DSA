@@ -1,0 +1,21 @@
+given arr = [2,3,-8,4,1].
+    Now for rach index, let's determine the maximum sum that ends in that index
+    i.e among all the subarrays that end at a certain index, we will search for one that has greatest sum.
+    For ex : for first index, maximum subarrray is [2] and its sum is 2.
+            for index 1 , max  subarray index sum is [2,3] => 5.
+            for  index 2 , max sunarray sum = [2,3,-8] => -3.
+            for index 4, mx sum  = [4] => 4
+            for last index = [4,5] = 9
+
+            at every index we have 2 choices :
+                1. to take max sum that ends at the last index.
+                2. to not take the max sum that ends at the last index
+
+                ex : at index 1 : if we take new element only, sum = 3. If we take the last max sum we get 5.
+                    at index 2, : id we take new element only, sum = -8, if we take the last max sum we get 3.
+
+for each move, the new value of localSum is the maximum between the actual element, and the sum of
+                    current element + last sum.
+
+        thus, localSum = Math.max(element , localSum + element).
+                globalSum = Math.max(globalSum, localSum).

@@ -1,0 +1,8 @@
+a problem that uses juni StringDuplicates cases for testing.
+
+dependency for junit:
+<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version> <!-- Or whatever JUnit you're using. -->
+		</dependency>

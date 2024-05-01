@@ -1,0 +1,17 @@
+It is given that for two integers x and y, thew cost function C(x,y) id defined as follows :
+    if  x> y :
+        c(X,Y) = C(x,y) =-x;
+    otherwise :
+        C(x,y) = C(x/y,y) +x MOD y;
+you have been given two integers x and c, such that C(x,y)=c, for some y.
+
+Find the smallest value of y, which satisfies the above defined cost function, if no such y exists return -1;
+
+note : it is given that 2<=y<=2000000000.
+
+sample :
+1. i/p : 3,2
+    o/p : 2
+
+2. i/p : 4,4
+    o/p

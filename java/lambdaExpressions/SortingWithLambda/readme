@@ -1,0 +1,19 @@
+Let us consider the following List of String:
+
+List<String> nameList = Arrays.asList("Rachael","Ross","Monica","Chandler","Joey","Phoebe");
+This list can be sorted in two ways:
+
+1 . Collections.sort(List<T> list): This method sorts elements in the given list in the ascending order, according to the
+natural order of the elements of the list. This method belongs to the class Collections and takes the List to be sorted
+
+2 . list.sort(Comparator<? super E> c): This method sorts elements in the given list according to the order mentioned by a
+Comparator. This method belongs to the interface List and takes a Lambda Expression for the customized sorting of the
+list. Hence, by this method we can sort a list not only on the basis of natural order, but also by our own custom format
+ for sorting. We can now sort list based on length of each element, first character of each element etc.
+
+ ================================================================================================================
+ Comparator is a Built-In Functional Interface, which is used in ordering a given collection. It orders the collection
+ using the Lambda function provided to it.
+ ================================================================================================================
+ For inducing ordering while sorting using Collections class, another overloaded method, sort(List<T> list,
+ Comparator<? super T> c) can be used

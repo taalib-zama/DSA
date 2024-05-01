@@ -1,0 +1,4 @@
+given an array of integers N, representing an elevation map where width of each bar is 1, compute how much water it is
+able to trap after raining
+
+arr= {2,0,2}

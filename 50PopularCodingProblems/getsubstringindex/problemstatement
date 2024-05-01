@@ -1,0 +1,13 @@
+
+
+ Q. Give 2 strings Str1 and Sstr2, create a function that returns the first index where
+    we can find str2 in str1. If we cannot find str2 in str1, the function must return -1.
+
+    solution :
+        1.brute force : we just have to traverse the str1, and checke if str2 starts at that index
+                    by comparing the 'm' ( length of str2) next charcters.
+
+
+                   ex : Str1 : "aabbaaabab".
+                        Str2 = "aaba".
+                        o/p - 6 (startinf index of substring)

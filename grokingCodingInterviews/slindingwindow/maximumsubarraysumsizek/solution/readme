@@ -1,0 +1,16 @@
+
+------approach 2 :
+to calculate the sum of a contiguous subarray we can utilize the sum of the previous subarray.\
+
+For this, consider each subarray as a Sliding Window of size ‘k’. To calculate
+the sum of the next subarray, we need to slide the window ahead by one element
+
+
+So to slide the window
+forward and calculate the sum of the new position of the sliding window, we need to do two things:
+1. Subtract the element going out of the sliding window i.e., subtract the first element of the window.
+2. Add the new element getting included in the sliding window i.e., the element coming right after the
+    end of the windwow.
+
+This approach will save us from re-calculating the sum of the overlapping part of the sliding window.
+

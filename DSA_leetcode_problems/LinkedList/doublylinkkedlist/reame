@@ -1,0 +1,7 @@
+In doubly LL we have nodes, a head,  a tail and each node in the list points to the next and the previous.
+
+So this time we'll have 2 reference fields i.e next field and the previous field.
+for the first item in the list the previous fields will point to null. And the last item in the list the
+next field will point to null.
+
+We can traverse the list front to back and vice versa.

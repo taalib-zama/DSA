@@ -1,0 +1,14 @@
+Sort the array of strings in alphabetical order.
+
+Compare the characters in the first and last strings in the array. Since the array is sorted,
+common characters among the first and last element will be common among all the elements of the array.
+
+2.1. If they are same, then append the character to the result.
+
+2.2. Else, stop the comparison – result contains the longest common prefix among the strings in the array.
+
+
+border conditions :
+    1. // The longest common prefix of an empty array is "".
+    2. // The longest common prefix of an array containing
+               // only one element is that element itself.

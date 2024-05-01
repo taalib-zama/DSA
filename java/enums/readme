@@ -1,0 +1,12 @@
+Enumerations are group of named constants. All enums implicitly extend the java.lang.Enum class. The enum fields are implicitly static and final, and hence are constant during compile time. But they are instances of their enum type, constructed when the enum type is referenced for the first time.
+
+Why do we need these grouped constants?
+
+Let us assume that a developer is creating online Pizza ordering application. He wants to allow the customers to choose the size of the pizza. The sizes allowed are small, medium and large only.
+He realizes that having the type of the size variable as String has a chance of some developer entering any arbitrary size. And this could cause invalid processing. How can we stop the Pizza size to be initialized anything other than these three values.
+
+Using enums allows us to limit the selection within a set of values.
+
+An enum is a datatype which contains a fixed set of constant values. For example,
+    -directions (NORTH, EAST, WEST, SOUTH)
+    -pizzaSize (SMALL, MEDIUM, LARGE)

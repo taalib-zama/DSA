@@ -1,0 +1,67 @@
+Demo program to create a user defined tree structure and poulate the tree. Along with traversal and printing.
+
+problem includes traversing a tree using depth first search.
+
+
+
+=========================================================================================================
+-> Note on tree :
+A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the
+ tree stores a value and a list of references to other nodes (the “children”).
+
+ This data structure is a specialized method to organize and store data in the computer to be used more effectively.
+
+
+It consists of a
+            1 . central node,   (root)
+            2. structural nodes,     (branches) and
+            3. sub-nodes, (leaves) which are connected via edges.
+
+
+Root Node: The topmost node of a tree or the node which does not have any parent node is called the root node.
+ A non-empty tree must contain exactly one root node and exactly one path from the root to all other nodes of the tree.
+Leaf Node or External Node: The nodes which do not have any child nodes are called leaf nodes.
+
+
+
+Properties of a Tree:
+Number of edges: An edge can be defined as the connection between two nodes. If a tree has N nodes then it will have
+(N-1) edges. There is only one path from each node to any other node of the tree.
+Depth of a node: The depth of a node is defined as the length of the path from the root to that node. Each edge adds
+1 unit of length to the path. So, it can also be defined as the number of edges in the path from the root of the tree to the node.
+Height of a node: The height of a node can be defined as the length of the longest path from the node to a leaf node of the tree.
+Height of the Tree: The height of a tree is the length of the longest path from the root of the tree to a leaf node of the tree.
+Degree of a Node: The total count of subtrees attached to that node is called the degree of the node. The degree of a
+leaf node must be 0. The degree of a tree is the maximum degree of a node among all the nodes in the tree.
+
+
+Some more properties are:
+
+Traversing in a tree is done by depth first search and breadth first search algorithm.
+It has no loop and no circuit
+It has no self-loop
+Its hierarchical model.
+
+
+struct Node
+{
+   int data;
+   struct Node *left_child;
+   struct Node *right_child;
+};
+
+================================================================================================
+Basic Operation Of Tree:
+  Create – create a tree in data structure.
+  Insert − Inserts data in a tree.
+  Search − Searches specific data  in a tree to check it is present or not.
+  Preorder Traversal – perform Traveling a tree in a pre-order manner in data structure .
+  In order Traversal – perform Traveling a tree in an in-order manner.
+  Post order Traversal –perform Traveling a tree in a post-order manner.
+
+  ========================================================================
+   The balance factor of a node is the height difference between the left and right subtrees.
+
+
+   -> A full binary tree (sometimes called proper binary tree) exits when every node, excluding the leaves, has two
+    children. Every level must be filled, and the nodes are as far left as possible.

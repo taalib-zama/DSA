@@ -1,0 +1,7 @@
+approach :
+1. runa loop over array.
+2. a nested loop wil iterate the window in each iteration.
+3. find maximum in current window.
+4. repeat this for all windows and save the maximum.
+
+time complexity : O(n2).

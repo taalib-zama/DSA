@@ -1,0 +1,85 @@
+Problem Description:
+EPay Wallet is a wallet application using which its users can pay various bills. Users can make payments only if they have enough wallet balance.
+
+There are two kinds of users as illustrated by the class diagrams below. General users can make regular payments, whereas KYC users get reward points for every payment.
+
+
+
+Method Description:
+
+User:
+
+makePayment(double billAmount): This method makes payment by deducting the bill amount from wallet if there is enough balance.
+
+If the balance is not enough, it returns false
+If the balance is sufficient, it deducts the specified bill amount from the wallet and returns true
+
+KYCUser:
+
+makePayment(double billAmount): This method overrides the parent method to make payment as well as to credit reward points to the user.
+
+It uses the payment functionality of the parent class
+If payment is successful, it adds 10% of the bill amount as reward points
+It returns true or false depending on whether the payment was successful or not
+
+
+The primary EPay Wallet operations (currently only one) are to be defined in a separate class as follows:
+
+
+
+Method Description:
+
+processPaymentByUser(User user, double billAmount): This is a static method to process the bill payment by any EPay Wallet user.
+
+It uses the makePayment() method of the user to process payments, and displays success or error messages depending on whether the payment was successful or not.
+It shows the wallet balance of the user
+If the user is a KYC user, it shows the reward points as well
+Note:
+
+Have a look at the sample output to understand the messages to be displayed
+You can use Java's instanceOf operator to check the type of an object
+
+Use the Tester class to StringDuplicates the above functionalities. Create User and KYCUser objects with different values and call the processPaymentByUser() method of EPayWallet class to process payments.
+
+Sample Input:
+
+User:
+
+id	101
+username	Jack
+email	jack@infy.com
+walletBalance	1000
+KYCUser:
+
+id	201
+username	Jill
+email	jill@infy.com
+walletBalance	3000
+Sample payments:
+
+Jack	700
+Jill	1500
+Jill	800
+Jill	1200
+
+
+Sample Output:
+
+Congratulations Jack, payment of 700.0 was successful
+Your wallet balance is 300.0
+--------------------------------------------
+Congratulations Jill, payment of 1500.0 was successful
+Your wallet balance is 1500.0
+You have 150 reward points
+--------------------------------------------
+Congratulations Jill, payment of 800.0 was successful
+Your wallet balance is 700.0
+You have 230 reward points
+--------------------------------------------
+Sorry Jill, not enough balance to make payment
+Your wallet balance is 700.0
+You have 230 reward points
+--------------------------------------------
+Create a new Java project to implement the requirements given above.
+
+Note: Check the project using SonarLint to maintain the coding standards. Ignore the violations which occur due to "Sy stem.out" statements.
