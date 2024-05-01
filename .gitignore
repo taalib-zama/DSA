@@ -1,0 +1,6 @@
+.idea/sonarlint
+*.class
+*/classes
+*.iml
+*.xml
+*.html

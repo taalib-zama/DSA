@@ -7,7 +7,6 @@ public class BruteForceSol {
         System.out.println("Pair sum found ? "+pairSums(arr,k));
     }
 
-
     //Two loops used to find the desired elements. Time complexity O(n^2).
     public static boolean pairSums(int[] arr, int k){
         for(int i = 0 ; i < arr.length ; i++){
