@@ -1,4 +1,4 @@
-package Streams;
+package javaBeyondBasics.Streams;
 
 public class EmployeeClassSample {
     private String name;

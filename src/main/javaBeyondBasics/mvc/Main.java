@@ -1,8 +1,8 @@
-package mvc;
+package javaBeyondBasics.mvc;
 
 public class Main {
     //The following example displays the main file to implement the MVC architecture.
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         // fetching the employee record based on the employee_id from the database
         Employee model = retriveEmployeeFromDatabase();
@@ -27,5 +27,5 @@ public class Main {
         Employee.setId("11");
         Employee.setDepartment("Salesforce");
         return Employee;
-    }
+    }*/
 }

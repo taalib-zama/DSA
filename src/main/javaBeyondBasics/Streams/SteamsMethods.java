@@ -1,4 +1,4 @@
-package Streams;
+package javaBeyondBasics.Streams;
 
 import java.util.ArrayList;
 import java.util.List;

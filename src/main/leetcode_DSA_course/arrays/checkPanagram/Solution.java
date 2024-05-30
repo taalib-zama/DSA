@@ -1,4 +1,4 @@
-package arrays.checkPanagram;
+package leetcode_DSA_course.arrays.checkPanagram;
 
 import java.util.HashSet;
 import java.util.Set;

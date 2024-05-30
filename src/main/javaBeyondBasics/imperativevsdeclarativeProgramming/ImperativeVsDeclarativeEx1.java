@@ -1,4 +1,4 @@
-package imperativevsdeclarativeProgramming;
+package javaBeyondBasics.imperativevsdeclarativeProgramming;
 
 import java.util.stream.IntStream;
 

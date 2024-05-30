@@ -1,4 +1,4 @@
-package linkedList.midddleofLinkedList;
+package leetcode_DSA_course.linkedList.midddleofLinkedList;
 
 public class Solution {
     public ListNode middleNode(ListNode head) {

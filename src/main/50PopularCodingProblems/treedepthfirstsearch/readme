@@ -1,4 +1,4 @@
-Q. Given a binary tree of integers 'root'. Create  functions to print the element. One for preorder
+`Q. Given a binary tree of integers 'root'. Create  functions to print the element. One for preorder
  traversal, one for inorder traversal, and one in postorder traversal. (DFS)
  ==================================================================================================
 BINARY TREE TRAVERSAL :

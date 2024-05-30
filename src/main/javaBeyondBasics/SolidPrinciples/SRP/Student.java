@@ -1,4 +1,4 @@
-package SolidPrinciples.SRP;
+package javaBeyondBasics.SolidPrinciples.SRP;
 
 public class Student {
     public void printDetails() {

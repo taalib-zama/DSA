@@ -12,6 +12,9 @@ public class Test1 {
         List<Integer> number = Arrays.asList(2,3,4,5,6);
         System.out.println(number);
 
+
+        LinkedList<Integer> linkedList = new LinkedList<>(List.of(1, 1, 2, 3, 3));
+
         //using map method.
         List<Integer> squared = number.stream().map(x->x*x).collect(Collectors.toList());
         System.out.println(squared);
