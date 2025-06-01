@@ -1,0 +1,14 @@
+When we talk about multithreading, we don’t care if the machine has a 2-core processor or a 16-core processor.
+Our work is to create a multithreaded application and let the OS handle the allocation and execution part.
+In short, multithreading has nothing to do with multiprocessing.
+
+
+Java supports multithreading through Thread class.
+Java Thread allows us to create a lightweight process that executes some tasks.
+We can create multiple threads in our program and start them.
+Java runtime will take care of creating machine-level instructions and work with OS to execute them in parallel.
+
+
+
+
+Latest source : Engineering digest YT channel

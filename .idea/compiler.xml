@@ -11,5 +11,8 @@
         <module name="DSA" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MicroserviceExamples" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>

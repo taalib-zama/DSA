@@ -1,0 +1,4 @@
+Any class which you can create an instance using new keyword.
+
+-all methods should have an implementation
+-it can also be an child class from inheritence or extension on abstract class.
