@@ -1,0 +1,50 @@
+The difference between `Function` and `Predicate` in Java lies in their purpose and method signatures:
+
+### **`Function`**
+- **Purpose**: Represents a function that takes one input and produces a result.
+- **Method**: `R apply(T t)`
+  - Takes an input of type `T` and returns a result of type `R`.
+- **Use Case**: Transforming or mapping data.
+
+### Example:
+```java
+import java.util.function.Function;
+
+public class FunctionExample {
+    public static void main(String[] args) {
+        Function<String, Integer> lengthFunction = str -> str.length();
+        System.out.println(lengthFunction.apply("Hello")); // Output: 5
+    }
+}
+```
+
+---
+
+### **`Predicate`**
+- **Purpose**: Represents a condition or filter that returns a boolean value.
+- **Method**: `boolean test(T t)`
+  - Takes an input of type `T` and returns a `boolean`.
+- **Use Case**: Evaluating conditions.
+
+### Example:
+```java
+import java.util.function.Predicate;
+
+public class PredicateExample {
+    public static void main(String[] args) {
+        Predicate<Integer> isEven = number -> number % 2 == 0;
+        System.out.println(isEven.test(4)); // Output: true
+    }
+}
+```
+
+---
+
+### Key Differences:
+1. **Return Type**:
+   - `Function`: Returns any type (`R`).
+   - `Predicate`: Returns a `boolean`.
+
+2. **Purpose**:
+   - `Function`: Used for transformations.
+   - `Predicate`: Used for conditional checks.

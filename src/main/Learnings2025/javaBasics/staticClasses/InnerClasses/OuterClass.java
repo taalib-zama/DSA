@@ -14,5 +14,5 @@ public class OuterClass {
         }
     }
 
-    Class InnerClass2
+
 }

@@ -1,0 +1,2 @@
+2. Using Lambda Expressions (For Functional Interfaces)
+If the interface is a functional interface (an interface with a single abstract method), you can use a lambda expression to create an object.

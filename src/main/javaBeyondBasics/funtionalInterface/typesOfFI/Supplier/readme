@@ -1,0 +1,11 @@
+Represents a supplier of results (accepts no input, only gives output).
+
+Use Cases:
+Generating default values.
+Lazy initialization of objects.
+Fetching or producing data dynamically.
+
+
+
+
+It is commonly used when you need to generate or supply values, such as fetching data, creating objects, or providing default values.

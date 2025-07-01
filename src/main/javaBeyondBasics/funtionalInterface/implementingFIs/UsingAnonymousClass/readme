@@ -1,0 +1,2 @@
+1. Using Anonymous Classes
+You can create an object of an interface by providing an implementation for its methods using an anonymous class.

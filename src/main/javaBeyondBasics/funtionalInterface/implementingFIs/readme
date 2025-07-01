@@ -1,0 +1,1 @@
+In Java, you cannot directly create an object of an interface because interfaces are abstract types. However, you can create an object of an interface using one of the following approaches

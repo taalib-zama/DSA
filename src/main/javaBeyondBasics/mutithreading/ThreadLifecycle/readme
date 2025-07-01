@@ -1,0 +1,6 @@
+Different Ways to Create Threads
+Threads can be created by using two mechanisms:
+
+Extending the Thread class
+Implementing the Runnable Interface
+
