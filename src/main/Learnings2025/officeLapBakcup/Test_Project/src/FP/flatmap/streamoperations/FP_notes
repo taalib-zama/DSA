@@ -1,0 +1,82 @@
+Step 07: Quick Review of Functional Programming Basics
+Key Objectives
+Review the foundational concepts of functional programming learned in the previous lessons.
+
+Understand the key functional programming constructs like streams, filter, forEach, map, lambda expressions, and method references.
+
+1. Streams in Functional Programming
+In functional programming, we focus on specifying what to do rather than how to do it. The first step is to convert a List into a stream, which is a sequence of elements that can be processed functionally.
+Example:
+List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2);
+numbers.stream()  // Convert List to Stream
+       .filter(number -> number % 2 != 0)  // Allow only odd numbers
+       .forEach(System.out::println);  // Print each odd number
+The stream represents the sequence of elements from the list.
+
+The functional operations such as filter and forEach specify what should be done with each element in the stream.
+
+2. The filter() Method
+The filter() method is used to allow only elements that meet a certain condition to pass through. All other elements are filtered out.
+Example:
+numbers.stream()
+       .filter(number -> number % 2 == 0)  // Allow only even numbers
+       .forEach(System.out::println);
+In this example, we use filter() to allow only even numbers through the stream by checking if number % 2 == 0.
+
+If the condition is true, the number is passed to the next stage of the stream pipeline.
+
+3. The forEach() Method
+The forEach() method is used to consume each element in the stream. This is typically where side effects occur, such as printing elements to the console.
+Example:
+numbers.stream()
+       .forEach(System.out::println);  // Print each number
+forEach() applies an operation (like printing) to each element in the stream.
+
+It is a terminal operation, meaning that it processes all elements in the stream and doesn’t return a new stream.
+
+4. The map() Method
+The map() method is used to transform each element in the stream. It allows you to convert one value into another.
+Example:
+numbers.stream()
+       .map(number -> number * number)  // Square each number
+       .forEach(System.out::println);
+map() takes each element in the stream and applies a transformation (in this case, squaring the number).
+
+The transformed values are then passed to the next stage of the stream pipeline.
+
+5. Lambda Expressions
+A Lambda Expression is a simplified way of defining a method in a functional programming style. It provides a concise way to express a method using a shorter syntax.
+Example:
+numbers.stream()
+       .filter(number -> number % 2 == 0)  // Lambda expression to check even numbers
+       .map(number -> number * number)     // Lambda expression to square the numbers
+       .forEach(System.out::println);
+number -> number % 2 == 0 is a lambda expression that checks if a number is even.
+
+number -> number * number is a lambda expression that squares each number.
+
+Lambda expressions allow us to define functional logic inline without writing separate methods.
+
+Simplifying Methods with Lambdas:
+Instead of writing a full method, like:
+private static boolean isEven(int number) {
+    return number % 2 == 0;
+}
+We can replace it with a simpler lambda expression:
+number -> number % 2 == 0
+6. Method References
+A Method Reference is a shorthand notation for referring to methods in Java, particularly when using functional programming.
+
+Method references allow you to call a method directly without explicitly using a lambda expression.
+
+Example:
+numbers.stream()
+       .forEach(System.out::println);  // Method reference to print each number
+System.out::println is a method reference that points to the println method, allowing us to print each element of the stream.
+
+We also used custom method references like ClassName::methodName to call static methods, such as FP01Functional::isEven.
+
+Custom Method Reference:
+numbers.stream()
+       .filter(FP01Functional::isEven)  // Method reference to custom static method
+       .forEach(System.out::println);

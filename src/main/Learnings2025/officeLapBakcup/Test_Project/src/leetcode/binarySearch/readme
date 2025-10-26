@@ -1,0 +1,26 @@
+Binary search is a search algorithm that runs in O(log n)O(logn)
+in the worst case, where
+n is the size of the search space. For binary search to work, your search space usually needs to be sorted.
+Binary search trees, which we looked at in the trees and graphs chapter, are based on binary search.
+
+
+Normally, binary search is done on an array of sorted elements, but you can use binary search in more creative ways,
+as we'll see in an upcoming article. For now, we'll just talk about sorted arrays of numbers
+
+usecases :
+If you have a sorted array arr and an element x, then in
+O
+(
+log
+⁡
+n
+)
+O(logn) time and
+O
+(
+1
+)
+O(1) space, binary search can:
+
+Find the index of x if it is in arr
+Find the first or the last index in which x can be inserted to maintain being sorted otherwis

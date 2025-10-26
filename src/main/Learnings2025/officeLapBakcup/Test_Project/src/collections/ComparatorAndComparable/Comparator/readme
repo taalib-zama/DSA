@@ -1,0 +1,3 @@
+//Used when multiple sorting criteria are required or when you cannot modify the class to implement Comparable.
+
+

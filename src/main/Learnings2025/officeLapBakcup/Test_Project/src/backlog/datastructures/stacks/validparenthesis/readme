@@ -1,0 +1,11 @@
+valid parenthesis :
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+
+Steps :
+Use a stack of characters.
+
+
+When you encounter an opening bracket, push it to the top of the stack
+
+When you encounter a closing bracket, check if the top of the stack was the opening for it. If yes, pop it from the stack. Otherwise, return false.

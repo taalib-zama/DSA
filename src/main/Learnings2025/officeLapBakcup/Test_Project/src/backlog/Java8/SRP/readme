@@ -1,0 +1,8 @@
+exmaple of SRP - employee class has a few attribute names :
+1; emp name
+2 empid etc
+
+save method to save to DB
+
+
+calculate method to calculate tax form employee's paycheck

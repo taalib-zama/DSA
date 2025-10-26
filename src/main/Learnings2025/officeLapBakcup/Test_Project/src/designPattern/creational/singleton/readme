@@ -1,0 +1,14 @@
+Intent :
+Ensure a Java class only has one instance, and provide a global point of access to this singleton instance.
+
+
+
+In plain words
+
+Ensures that only one object of a particular class is ever created.
+
+
+
+Joshua Bloch, Effective Java 2nd Edition p.18
+
+A single-element enum type is the best way to implement a singleton

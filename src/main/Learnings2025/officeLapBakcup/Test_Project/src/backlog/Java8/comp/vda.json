@@ -1,0 +1,646 @@
+{
+  "sectionCode": "Schedule VDA",
+  "sectionDescription": null,
+  "sectionId": 20190391,
+  "subSections": [
+    {
+      "sectionCode": "",
+      "sectionDescription": "",
+      "sectionId": 20190392,
+      "subSections": null,
+      "orderNumber": 1,
+      "horizontalOrder": null,
+      "tabNumber": 0,
+      "show": null,
+      "questions": [
+        {
+          "questionId": 200201901,
+          "questionText": "Date of Acquisition",
+          "answers": [
+            {
+              "answerId": 98889,
+              "sectionId": 20190392,
+              "questionId": 200201901,
+              "answerValue": "23/04/2024",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": 200201909,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "DATE",
+            "options": [],
+            "controlType": "DATE",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onInit",
+                "action": "setDateLimit",
+                "actionKey": null,
+                "question": [],
+                "actionValue": "/datesRange/?startYear=1970"
+              }
+            ],
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": "04/01/1970",
+            "dynamicMaxDate": "03/31/2024",
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201902,
+          "questionText": "Date of transfer",
+          "answers": [
+            {
+              "answerId": 98890,
+              "sectionId": 20190392,
+              "questionId": 200201902,
+              "answerValue": "25/04/2024",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": 200201909,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "DATE",
+            "options": [],
+            "controlType": "DATE",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onInit",
+                "action": "setDateLimit",
+                "actionKey": null,
+                "question": [],
+                "actionValue": "/datesRange/?startYear=2023"
+              }
+            ],
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": "04/01/2023",
+            "dynamicMaxDate": "03/31/2024",
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201903,
+          "questionText": "Head under which income to be taxed (Business/Capital Gain)",
+          "answers": [
+            {
+              "answerId": 98891,
+              "sectionId": 20190392,
+              "questionId": 200201903,
+              "answerValue": "Capital Gain",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": 200201909,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "SELECT",
+            "options": [
+              {
+                "key": "BI",
+                "value": "Business Income"
+              },
+              {
+                "key": "CG",
+                "value": "Capital Gain"
+              }
+            ],
+            "controlType": null,
+            "inputSize": null,
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": 20,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201904,
+          "questionText": "Cost of Acquisition (In case of gift; a. Enter the amount on which tax is paid u/s 56(2)(x), if any b. In any other case cost to previous owner)",
+          "answers": [
+            {
+              "answerId": 98892,
+              "sectionId": 20190392,
+              "questionId": 200201904,
+              "answerValue": "45678",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": 200201909,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]*)$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": null,
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": 20,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onChange",
+                "action": "Triggerformula",
+                "question": [
+                  200201906
+                ],
+                "actionKey": [],
+                "actionValue": ""
+              }
+            ],
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201905,
+          "questionText": "Consideration received",
+          "answers": [
+            {
+              "answerId": 98893,
+              "sectionId": 20190392,
+              "questionId": 200201905,
+              "answerValue": "67",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": 200201909,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]*)$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": null,
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": 20,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onChange",
+                "action": "Triggerformula",
+                "question": [
+                  200201906
+                ],
+                "actionKey": [],
+                "actionValue": ""
+              }
+            ],
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201906,
+          "questionText": "Income from transfer of Virtual Digital Assets (enter nil in case of loss)",
+          "answers": [
+            {
+              "answerId": 98894,
+              "sectionId": 20190392,
+              "questionId": 200201906,
+              "answerValue": "0",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": 200201909,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]*)$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": null,
+            "answerEditable": false,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": 20,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": "Math.max((({200201905}) - ({200201904})),0)",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201909,
+          "questionText": "Income from transfer of Virtual Digital Assets ",
+          "answers": null,
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "TABLE",
+            "options": [],
+            "controlType": null,
+            "inputSize": null,
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": {
+              "headers": [
+                "Search",
+                "Download Template",
+                "Upload Excel",
+                "Export to Excel",
+                "Workspace"
+              ],
+              "footers": {
+                "total": [],
+                "grandTotal": []
+              },
+              "pagination": true,
+              "editable": false,
+              "disabled": [],
+              "sortable": [
+                200201901,
+                200201902,
+                200201903,
+                200201904,
+                200201905,
+                200201906
+              ],
+              "filter": [
+                200201901,
+                200201902,
+                200201903,
+                200201904,
+                200201905,
+                200201906
+              ],
+              "showAddRow": true,
+              "maxNumberOfRows": -1
+            },
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201907,
+          "questionText": "Business Income",
+          "answers": [
+            {
+              "answerId": 98895,
+              "sectionId": 20190392,
+              "questionId": 200201907,
+              "answerValue": "0",
+              "rowNumber": 0,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200201906,
+            "mainQuestionId": 200201909,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]*)$",
+            "answerType": "TABLE_FOOTER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 2,
+            "verticalOrder": 1,
+            "maxLength": 20,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "saveTableFooterAtRowLevel",
+                "handlerTypes": [
+                  "TABLE_FOOTER_SAVE_HANDLER"
+                ],
+                "formula": "'{200201903}' == 'Business Income' ? '{200201906}':0"
+              }
+            ],
+            "formula": "'{200201903}' == \"Business Income\" ? '{200201906}':0",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200201908,
+          "questionText": "Capital Gain",
+          "answers": [
+            {
+              "answerId": 98896,
+              "sectionId": 20190392,
+              "questionId": 200201908,
+              "answerValue": "0",
+              "rowNumber": 0,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200201906,
+            "mainQuestionId": 200201909,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]*)$",
+            "answerType": "TABLE_FOOTER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 2,
+            "verticalOrder": 2,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "saveTableFooterAtRowLevel",
+                "handlerTypes": [
+                  "TABLE_FOOTER_SAVE_HANDLER"
+                ],
+                "formula": "'{200201903}' == 'Capital Gain' ? '{200201906}':0"
+              }
+            ],
+            "formula": "'{200201903}' == \"Capital Gain\" ? '{200201906}':0",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": "0",
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        }
+      ],
+      "trialBalanceAttachment": {
+        "attachmentCount": 0,
+        "attachment": []
+      },
+      "valueActions": null,
+      "noOfFixedHeader": 0,
+      "collapsable": false,
+      "headerShown": true,
+      "trialBalance": false,
+      "deferredTax": false,
+      "curTaxProReport": true,
+      "taxStructureDependent": false,
+      "depTaxCol": false
+    }
+  ],
+  "orderNumber": 16,
+  "horizontalOrder": null,
+  "tabNumber": 1,
+  "show": null,
+  "questions": [],
+  "trialBalanceAttachment": {
+    "attachmentCount": 0,
+    "attachment": []
+  },
+  "valueActions": null,
+  "noOfFixedHeader": 0,
+  "collapsable": false,
+  "headerShown": true,
+  "trialBalance": false,
+  "deferredTax": false,
+  "curTaxProReport": true,
+  "taxStructureDependent": false,
+  "depTaxCol": false
+}

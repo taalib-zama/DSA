@@ -1,0 +1,31 @@
+both are used to sort objects based on its data members.
+
+
+
+Difference Between Comparator and Comparable
+Comparable:
+Used to define the natural ordering of objects.
+The class itself implements the Comparable interface.
+Requires overriding the compareTo method.
+Example: Sorting based on a single property (e.g., age).
+    object1.compareTo(object2);
+
+
+
+Comparator:
+Used to define custom ordering of objects.
+A separate class or lambda expression implements the Comparator interface.
+Requires overriding the compare method.
+Example: Sorting based on multiple properties (e.g., name, age).
+<hr></hr>
+Example Code
+      compare(T o1, T o2);
+
+      in our pojo to compare using data members.
+
+        Comparator<Person> comparator = new Comparator<Person>() {
+            @Override
+            public int compare(Person p1, Person p2) {
+                return p1.getAge() - p2.getAge(); // Compare based on age
+            }
+        };
