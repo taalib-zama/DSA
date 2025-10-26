@@ -1,1 +1,0 @@
-You are given an array points of n coordinates. These coordinates are objects of the class Point and contain x and y. You need to sort the points array by increasing order of x, and if two x are same then sort by increasing order of y.

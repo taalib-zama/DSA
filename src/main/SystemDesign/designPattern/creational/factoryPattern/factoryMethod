@@ -1,9 +1,0 @@
-design logic /creation is hidden from user.
-many subclass types, only one instance required.
-
-
-useful for frequent code changes.
-
-
-Implementation process
--a common interface /abstract class that defines common functionality.

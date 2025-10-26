@@ -1,9 +1,0 @@
-6. How to handle null values when implementing compare methods.
-We can use Comparator.nullsFirst() or Comparator.nullsLast() to define how null values should be treated. Here are examples for both approaches.
-
-Using nullsFirst()
-This approach sorts null values before non-null values.
-
-
-
-

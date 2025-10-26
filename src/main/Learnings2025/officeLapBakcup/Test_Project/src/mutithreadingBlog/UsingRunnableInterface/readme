@@ -1,5 +1,0 @@
-Whatever the thread is supposed to do when it executes must be included in the implementation of the run() method. There are three ways to implement the Runnable interface:
-
-Create a Java class that implements the Runnable interface.
-Create an anonymous class that implements the Runnable interface.
-Create a Java Lambda that implements the Runnable interface.

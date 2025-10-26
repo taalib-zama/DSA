@@ -1,2 +1,0 @@
-In Java, if you sort a List using methods like Collections.sort(List) or list.sort(Comparator),
-the original list is modified in place. No new list is created.

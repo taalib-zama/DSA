@@ -1,7 +1,0 @@
-Hashmap - unsynchronized, not thread-safe, allows one null key and multiple null values. It is the most commonly used Map implementation.
-Hashtable - synchronized, thread-safe, does not allow null keys or values. version of HashMap.
-LinkedHashMap - maintains insertion order, allows one null key and multiple null values. It is a combination of HashMap and LinkedList.
-TreeMap - sorted map, does not allow null keys, allows multiple null values. It is based on Red-Black Tree.
-
-
-Map in general cannot contain duplicate keys,
