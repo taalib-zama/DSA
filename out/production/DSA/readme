@@ -1,0 +1,37 @@
+Diff betwn class and interfaces https://www.geeksforgeeks.org/interfaces-in-java/#:~:text=Like%20a%20class%2C%20an%20interface,must%20do%20and%20not%20how.
+==========================================================================================================================================================
+As a rule, if you need to call super(), it must always be the first line in your constructor code
+==========================================================================================================================================================
+SuperClass obj = new SubClass()
+
+To understand which methods will compiler allow to be called, look on left side of expression
+To understand which methods will actually be called on runtime, look on right side of expression
+==========================================================================================================================================================
+
+Static means we don't need to create objects of that class to call static methods or access static variables
+There are no separate copies of static variables
+==========================================================================================================================================================
+Prevent unchecked exceptions from happening. Ex: Check an object for null so that NPE is not thrown
+Handle checked exceptions by writing try/catch
+
+Below error has been left intentionally to demonstrate that compiler forces us to handle checked exceptions, whereas it does not do anything for unchecked ones
+Technically, we can write a catch block for unchecked ex also, but as mentioned above, its always a good practice to prevent unchecked ex from happening.
+==========================================================================================================================================================
+Static vs Dynamic Polymorphism:
+
+Static:
+    Also called compile-time polymorphism or overloading
+    This can be done in same class or in sub-class
+    Method parameters must be different
+    Return type must be same
+    No rules on exceptions
+    Can have a different access modifier but it cannot lower the access scope.
+
+Dynamic:
+    Also called runtime polymorphism or overriding
+    This can only be done in sub-class and not in the same class
+    Return type has to be same or a sub-class of previous return type
+    Method parameters cannot change
+    An overriding method can throw any unchecked exceptions, regardless of whether the overridden method throws exceptions or not. However, the overriding method should not throw checked exceptions that are new or broader than the ones declared by the overridden method.
+    Can have a different access modifier but it cannot lower the access scope.
+=======================================================================================
