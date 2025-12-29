@@ -1,0 +1,23 @@
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+class Scratch {
+    public static void main(String[] args) {
+        List<Student> students  = new ArrayList<>();
+
+        // get list of names of any 10 students born after 1st Feb 2010
+        // names should be sorted in descending order
+        // names should be returned in UPPERCASE
+
+
+    }
+}
+
+class Student {
+
+    String id;
+    String name;
+    LocalDate dob;
+
+}

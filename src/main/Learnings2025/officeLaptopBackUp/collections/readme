@@ -1,0 +1,29 @@
+Collection (Interface)
+                          |
+        +----------------+----------------+
+        |                |                |
+      List            Set              Queue
+   (Interface)    (Interface)       (Interface)
+        |              |                |
+  +-----+-----+   +----+----+      +----+----+
+  |     |     |   |         |      |         |
+ArrayList Vector LinkedList HashSet TreeSet PriorityQueue
+      |              |         |         |
+  LinkedList    LinkedHashSet SortedSet Deque
+                              |     (Interface)
+                          NavigableSet    |
+                                     ArrayDeque
+
+
+
+
+
+Map (Interface)
+    |
++---+---+
+|       |
+HashMap TreeMap
+    |       |
+LinkedHashMap SortedMap
+              |
+          NavigableMap

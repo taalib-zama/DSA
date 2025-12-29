@@ -1,0 +1,7 @@
+The map() function allows us to apply a function to each element in a stream, transforming the data in some way.
+
+
+Printing Squares of Even Numbers
+The task is to print the squares of all even numbers in the list.
+
+Instead of simply printing the numbers, we will use the map() function to transform each even number into its square.

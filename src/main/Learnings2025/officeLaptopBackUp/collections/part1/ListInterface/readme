@@ -1,0 +1,9 @@
+Performance Summary:​
+
+Search operations: ArrayList is significantly faster
+
+Deletion operations: LinkedList is faster
+
+Insertion operations: LinkedList provides O(1) at ends
+
+Memory consumption: ArrayList is more efficient​

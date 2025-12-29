@@ -1,0 +1,1 @@
+A daemon thread in Java is a thread that does not keep the Java Virtual Machine (JVM) running if the main thread exits the application. A non-daemon thread will keep the JVM running even if the main thread exits the application.

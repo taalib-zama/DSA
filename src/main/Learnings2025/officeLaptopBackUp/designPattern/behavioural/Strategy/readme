@@ -1,0 +1,95 @@
+The **Strategy Pattern** is a behavioral design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern allows the algorithm to vary independently from the clients that use it.
+
+### Key Components:
+1. **Strategy Interface**: Defines a common interface for all supported algorithms.
+2. **Concrete Strategies**: Implement the strategy interface with specific algorithms.
+3. **Context**: Maintains a reference to a strategy object and uses it to execute the algorithm.
+
+### Example: Payment System
+We will implement a payment system where different payment methods (e.g., Credit Card, PayPal) can be used interchangeably.
+
+#### Step 1: Define the Strategy Interface
+```java
+// Strategy Interface
+public interface PaymentStrategy {
+    void pay(int amount);
+}
+```
+
+#### Step 2: Create Concrete Strategies
+```java
+// Concrete Strategy 1: Credit Card Payment
+public class CreditCardPayment implements PaymentStrategy {
+    private String cardNumber;
+
+    public CreditCardPayment(String cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    @Override
+    public void pay(int amount) {
+        System.out.println("Paid " + amount + " using Credit Card: " + cardNumber);
+    }
+}
+
+// Concrete Strategy 2: PayPal Payment
+public class PayPalPayment implements PaymentStrategy {
+    private String email;
+
+    public PayPalPayment(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public void pay(int amount) {
+        System.out.println("Paid " + amount + " using PayPal: " + email);
+    }
+}
+```
+
+#### Step 3: Create the Context Class
+```java
+// Context
+public class PaymentContext {
+    private PaymentStrategy paymentStrategy;
+
+    public void setPaymentStrategy(PaymentStrategy paymentStrategy) {
+        this.paymentStrategy = paymentStrategy;
+    }
+
+    public void executePayment(int amount) {
+        if (paymentStrategy == null) {
+            throw new IllegalStateException("Payment strategy is not set.");
+        }
+        paymentStrategy.pay(amount);
+    }
+}
+```
+
+#### Step 4: Client Code
+```java
+public class StrategyPatternExample {
+    public static void main(String[] args) {
+        PaymentContext context = new PaymentContext();
+
+        // Pay using Credit Card
+        context.setPaymentStrategy(new CreditCardPayment("1234-5678-9876-5432"));
+        context.executePayment(100);
+
+        // Pay using PayPal
+        context.setPaymentStrategy(new PayPalPayment("user@example.com"));
+        context.executePayment(200);
+    }
+}
+```
+
+### Output:
+```
+Paid 100 using Credit Card: 1234-5678-9876-5432
+Paid 200 using PayPal: user@example.com
+```
+
+### Explanation:
+- The `PaymentStrategy` interface defines the `pay` method.
+- `CreditCardPayment` and `PayPalPayment` are concrete implementations of the strategy.
+- The `PaymentContext` class uses a `PaymentStrategy` to execute the payment, allowing the algorithm to be changed at runtime.

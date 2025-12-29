@@ -1,0 +1,1 @@
+Suppose you need to connect a legacy logging system (LegacyLogger) with the new application that expects a Logger interface:

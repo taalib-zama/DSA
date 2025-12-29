@@ -1,0 +1,5 @@
+It represents a function which takes in one argument and produces a result. However these kind of functions don’t return any value.
+
+The lambda expression assigned to an object of Consumer type is used to define its accept()
+
+void accept(T t)
