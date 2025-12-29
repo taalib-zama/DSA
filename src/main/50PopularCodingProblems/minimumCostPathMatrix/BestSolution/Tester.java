@@ -3,6 +3,7 @@ package minimumCostPathMatrix.BestSolution;
 public class Tester {
     public static void main(String[] args) {
         //creating a matrix :
+        //sample commit
         //3,12,4,7,10
         //6,8,15,11,4
         //19,5,14,32,21
