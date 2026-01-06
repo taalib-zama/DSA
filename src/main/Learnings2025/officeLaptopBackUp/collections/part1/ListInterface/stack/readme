@@ -1,0 +1,4 @@
+--extends vector, hence synchronized.
+--represents lifo -
+--doesn't maintain insertion order.
+--null and duplicates allowed.

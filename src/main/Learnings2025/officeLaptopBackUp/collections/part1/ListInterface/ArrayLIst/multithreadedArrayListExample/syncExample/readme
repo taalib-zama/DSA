@@ -1,0 +1,5 @@
+Example demonstrating how to synchronize concurrent modifications to an ArrayList
+All right! Now let’s see how we can synchronize access to the ArrayList in multi-threaded environments.
+
+The following example shows the synchronized version of the previous example.
+ Unlike the previous program, the output of this program is deterministic and will always be the same.

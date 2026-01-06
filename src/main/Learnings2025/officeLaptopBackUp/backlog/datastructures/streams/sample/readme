@@ -1,0 +1,2 @@
+Say, the task is to group an array of employee records into a data map organized by job title. Here is a traditional way to loop through the list and construct a data map.
+

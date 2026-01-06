@@ -1,0 +1,2838 @@
+{
+  "sectionCode": "Sale of Immovable Property",
+  "sectionDescription": "",
+  "sectionId": 20190134,
+  "subSections": [
+    {
+      "sectionCode": "",
+      "sectionDescription": null,
+      "sectionId": 20190135,
+      "subSections": null,
+      "orderNumber": 1,
+      "horizontalOrder": null,
+      "tabNumber": 0,
+      "show": null,
+      "questions": [
+        {
+          "questionId": 200190767,
+          "questionText": "How many Land or Building or Both has been sold in the current year which is to be accounted for in the Capital Gain schedule?",
+          "answers": [
+            {
+              "answerId": 1455085,
+              "sectionId": 20190135,
+              "questionId": 200190767,
+              "answerValue": "1",
+              "rowNumber": 0,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "SELECT",
+            "options": [
+              {
+                "key": "1",
+                "value": "1"
+              },
+              {
+                "key": "2",
+                "value": "2"
+              },
+              {
+                "key": "3",
+                "value": "3"
+              },
+              {
+                "key": "4",
+                "value": "4"
+              },
+              {
+                "key": "5",
+                "value": "5"
+              },
+              {
+                "key": "6",
+                "value": "6"
+              },
+              {
+                "key": "7",
+                "value": "7"
+              },
+              {
+                "key": "8",
+                "value": "8"
+              },
+              {
+                "key": "9",
+                "value": "9"
+              },
+              {
+                "key": "10",
+                "value": "10"
+              },
+              {
+                "key": "11",
+                "value": "11"
+              },
+              {
+                "key": "12",
+                "value": "12"
+              },
+              {
+                "key": "13",
+                "value": "13"
+              },
+              {
+                "key": "14",
+                "value": "14"
+              },
+              {
+                "key": "15",
+                "value": "15"
+              },
+              {
+                "key": "16",
+                "value": "16"
+              },
+              {
+                "key": "17",
+                "value": "17"
+              },
+              {
+                "key": "18",
+                "value": "18"
+              },
+              {
+                "key": "19",
+                "value": "19"
+              },
+              {
+                "key": "20",
+                "value": "20"
+              },
+              {
+                "key": "21",
+                "value": "21"
+              },
+              {
+                "key": "22",
+                "value": "22"
+              },
+              {
+                "key": "23",
+                "value": "23"
+              },
+              {
+                "key": "24",
+                "value": "24"
+              },
+              {
+                "key": "25",
+                "value": "25"
+              },
+              {
+                "key": "26",
+                "value": "26"
+              },
+              {
+                "key": "27",
+                "value": "27"
+              },
+              {
+                "key": "28",
+                "value": "28"
+              },
+              {
+                "key": "29",
+                "value": "29"
+              },
+              {
+                "key": "30",
+                "value": "30"
+              },
+              {
+                "key": "31",
+                "value": "31"
+              },
+              {
+                "key": "32",
+                "value": "32"
+              },
+              {
+                "key": "33",
+                "value": "33"
+              },
+              {
+                "key": "34",
+                "value": "34"
+              },
+              {
+                "key": "35",
+                "value": "35"
+              },
+              {
+                "key": "36",
+                "value": "36"
+              },
+              {
+                "key": "37",
+                "value": "37"
+              },
+              {
+                "key": "38",
+                "value": "38"
+              },
+              {
+                "key": "39",
+                "value": "39"
+              },
+              {
+                "key": "40",
+                "value": "40"
+              },
+              {
+                "key": "41",
+                "value": "41"
+              },
+              {
+                "key": "42",
+                "value": "42"
+              },
+              {
+                "key": "43",
+                "value": "43"
+              },
+              {
+                "key": "44",
+                "value": "44"
+              },
+              {
+                "key": "45",
+                "value": "45"
+              },
+              {
+                "key": "46",
+                "value": "46"
+              },
+              {
+                "key": "47",
+                "value": "47"
+              },
+              {
+                "key": "48",
+                "value": "48"
+              },
+              {
+                "key": "49",
+                "value": "49"
+              },
+              {
+                "key": "50",
+                "value": "50"
+              },
+              {
+                "key": "51",
+                "value": "51"
+              },
+              {
+                "key": "52",
+                "value": "52"
+              },
+              {
+                "key": "53",
+                "value": "53"
+              },
+              {
+                "key": "54",
+                "value": "54"
+              },
+              {
+                "key": "55",
+                "value": "55"
+              },
+              {
+                "key": "56",
+                "value": "56"
+              },
+              {
+                "key": "57",
+                "value": "57"
+              },
+              {
+                "key": "58",
+                "value": "58"
+              },
+              {
+                "key": "59",
+                "value": "59"
+              },
+              {
+                "key": "60",
+                "value": "60"
+              },
+              {
+                "key": "61",
+                "value": "61"
+              },
+              {
+                "key": "62",
+                "value": "62"
+              },
+              {
+                "key": "63",
+                "value": "63"
+              },
+              {
+                "key": "64",
+                "value": "64"
+              },
+              {
+                "key": "65",
+                "value": "65"
+              },
+              {
+                "key": "66",
+                "value": "66"
+              },
+              {
+                "key": "67",
+                "value": "67"
+              },
+              {
+                "key": "68",
+                "value": "68"
+              },
+              {
+                "key": "69",
+                "value": "69"
+              },
+              {
+                "key": "70",
+                "value": "70"
+              },
+              {
+                "key": "71",
+                "value": "71"
+              },
+              {
+                "key": "72",
+                "value": "72"
+              },
+              {
+                "key": "73",
+                "value": "73"
+              },
+              {
+                "key": "74",
+                "value": "74"
+              },
+              {
+                "key": "75",
+                "value": "75"
+              },
+              {
+                "key": "76",
+                "value": "76"
+              },
+              {
+                "key": "77",
+                "value": "77"
+              },
+              {
+                "key": "78",
+                "value": "78"
+              },
+              {
+                "key": "79",
+                "value": "79"
+              },
+              {
+                "key": "80",
+                "value": "80"
+              },
+              {
+                "key": "81",
+                "value": "81"
+              },
+              {
+                "key": "82",
+                "value": "82"
+              },
+              {
+                "key": "83",
+                "value": "83"
+              },
+              {
+                "key": "84",
+                "value": "84"
+              },
+              {
+                "key": "85",
+                "value": "85"
+              },
+              {
+                "key": "86",
+                "value": "86"
+              },
+              {
+                "key": "87",
+                "value": "87"
+              },
+              {
+                "key": "88",
+                "value": "88"
+              },
+              {
+                "key": "89",
+                "value": "89"
+              },
+              {
+                "key": "90",
+                "value": "90"
+              },
+              {
+                "key": "91",
+                "value": "91"
+              },
+              {
+                "key": "92",
+                "value": "92"
+              },
+              {
+                "key": "93",
+                "value": "93"
+              },
+              {
+                "key": "94",
+                "value": "94"
+              },
+              {
+                "key": "95",
+                "value": "95"
+              },
+              {
+                "key": "96",
+                "value": "96"
+              },
+              {
+                "key": "97",
+                "value": "97"
+              },
+              {
+                "key": "98",
+                "value": "98"
+              },
+              {
+                "key": "99",
+                "value": "99"
+              }
+            ],
+            "controlType": null,
+            "inputSize": "small",
+            "answerEditable": true,
+            "orderNumber": 1,
+            "verticalOrder": 0,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onChange",
+                "action": "coiMultiPanelClone",
+                "question": [
+                  "200190768"
+                ],
+                "actionKey": null,
+                "actionValue": ""
+              }
+            ],
+            "formula": null,
+            "placeholder": "Select",
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        }
+      ],
+      "trialBalanceAttachment": {
+        "attachmentCount": 0,
+        "attachment": []
+      },
+      "valueActions": null,
+      "noOfFixedHeader": 0,
+      "collapsable": false,
+      "headerShown": true,
+      "trialBalance": false,
+      "curTaxProReport": false,
+      "deferredTax": false,
+      "depTaxCol": false,
+      "taxStructureDependent": false
+    },
+    {
+      "sectionCode": "Property",
+      "sectionDescription": "",
+      "sectionId": 20190136,
+      "subSections": null,
+      "orderNumber": 2,
+      "horizontalOrder": null,
+      "tabNumber": 0,
+      "show": null,
+      "questions": [
+        {
+          "questionId": 200190048,
+          "questionText": "i. 50D",
+          "answers": [
+            {
+              "answerId": 1455088,
+              "sectionId": 20190136,
+              "questionId": 200190048,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190786,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190049,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455089,
+              "sectionId": 20190136,
+              "questionId": 200190049,
+              "answerValue": "124124",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190048,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190059,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455090,
+              "sectionId": 20190136,
+              "questionId": 200190059,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190048,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190775,
+          "questionText": "i. Cost of acquisition without indexation",
+          "answers": [
+            {
+              "answerId": 1455091,
+              "sectionId": 20190136,
+              "questionId": 200190775,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190774,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": "WHOLE_AND_POSITIVE_NUMBER",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190776,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455092,
+              "sectionId": 20190136,
+              "questionId": 200190776,
+              "answerValue": "121212",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190775,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "WHOLE_AND_POSITIVE_NUMBER",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190777,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455093,
+              "sectionId": 20190136,
+              "questionId": 200190777,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190775,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190771,
+          "questionText": "i. Full value of consideration received/receivable",
+          "answers": [
+            {
+              "answerId": 1455094,
+              "sectionId": 20190136,
+              "questionId": 200190771,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190770,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": null,
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190772,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455095,
+              "sectionId": 20190136,
+              "questionId": 200190772,
+              "answerValue": "121212",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190771,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "WHOLE_AND_POSITIVE_NUMBER",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190773,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455096,
+              "sectionId": 20190136,
+              "questionId": 200190773,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190771,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190768,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455086,
+              "sectionId": 20190136,
+              "questionId": 200190768,
+              "answerValue": "",
+              "rowNumber": 0,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTIPANEL",
+            "options": [],
+            "controlType": null,
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": false,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200199999,
+          "questionText": "Date of Purchase/acquisition",
+          "answers": [
+            {
+              "answerId": 1455097,
+              "sectionId": 20190136,
+              "questionId": 200199999,
+              "answerValue": "19/03/2024",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "DATE",
+            "options": [],
+            "controlType": "DATE",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 1,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onInit",
+                "action": "setDateLimit",
+                "actionKey": null,
+                "question": [],
+                "actionValue": "/datesRange/?startYear=2001"
+              }
+            ],
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": "04/01/2001",
+            "dynamicMaxDate": "03/31/2024",
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 2,
+                "columnType": "NUMBER"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200200000,
+          "questionText": "Date of sale/transfer",
+          "answers": [
+            {
+              "answerId": 1455098,
+              "sectionId": 20190136,
+              "questionId": 200200000,
+              "answerValue": "20/03/2024",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": true,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "DATE",
+            "options": [],
+            "controlType": "DATE",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": [
+              {
+                "emit": "onInit",
+                "action": "setDateLimit",
+                "actionKey": null,
+                "question": [],
+                "actionValue": "/datesRange/?startYear=2023"
+              }
+            ],
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": "04/01/2023",
+            "dynamicMaxDate": "03/31/2024",
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 2,
+                "columnType": "NUMBER"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190769,
+          "questionText": "Property",
+          "answers": [
+            {
+              "answerId": 1455099,
+              "sectionId": 20190136,
+              "questionId": 200190769,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190768,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "TREE_TABLE",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": "Particulars ,Date,Amount (₹),Amount (₹),Documents",
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190778,
+          "questionText": "ii. Cost of Improvement without indexation",
+          "answers": [
+            {
+              "answerId": 1455100,
+              "sectionId": 20190136,
+              "questionId": 200190778,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190774,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190779,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1455101,
+              "sectionId": 20190136,
+              "questionId": 200190779,
+              "answerValue": "214214",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190778,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190780,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456002,
+              "sectionId": 20190136,
+              "questionId": 200190780,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190778,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190060,
+          "questionText": "ii. 50G",
+          "answers": [
+            {
+              "answerId": 1456003,
+              "sectionId": 20190136,
+              "questionId": 200190060,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190786,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190061,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456004,
+              "sectionId": 20190136,
+              "questionId": 200190061,
+              "answerValue": "124124",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190060,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190062,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456005,
+              "sectionId": 20190136,
+              "questionId": 200190062,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190060,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190063,
+          "questionText": "iii. 50GA",
+          "answers": [
+            {
+              "answerId": 1456006,
+              "sectionId": 20190136,
+              "questionId": 200190063,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190786,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190190,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456007,
+              "sectionId": 20190136,
+              "questionId": 200190190,
+              "answerValue": "124",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190063,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190196,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456008,
+              "sectionId": 20190136,
+              "questionId": 200190196,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190063,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190781,
+          "questionText": "iii. Expenditure wholly and exclusively in connection with transfer",
+          "answers": [
+            {
+              "answerId": 1456009,
+              "sectionId": 20190136,
+              "questionId": 200190781,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190774,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "MULTI_COLS",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190782,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456010,
+              "sectionId": 20190136,
+              "questionId": 200190782,
+              "answerValue": "124124124",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190781,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": "^(0|[1-9][0-9]{0,13})?$",
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": 14,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190783,
+          "questionText": "",
+          "answers": [
+            {
+              "answerId": 1456011,
+              "sectionId": 20190136,
+              "questionId": 200190783,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190781,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "ATTACHMENT",
+            "options": [],
+            "controlType": "ATTACHMENT",
+            "inputSize": "large",
+            "answerEditable": true,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 5,
+                "columnType": "ATTACHMENT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190770,
+          "questionText": "a. Sales Consideration",
+          "answers": [
+            {
+              "answerId": 1456012,
+              "sectionId": 20190136,
+              "questionId": 200190770,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": null,
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 3,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "LABEL"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190774,
+          "questionText": "b. Deductions under Section 48",
+          "answers": [
+            {
+              "answerId": 1456013,
+              "sectionId": 20190136,
+              "questionId": 200190774,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "WHOLE_AND_POSITIVE_NUMBER",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 4,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 3,
+                "columnType": "LABEL"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190784,
+          "questionText": "iv. Total",
+          "answers": [
+            {
+              "answerId": 1456014,
+              "sectionId": 20190136,
+              "questionId": 200190784,
+              "answerValue": "124459550.00",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190774,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 4,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": "(i+ii+iii)",
+            "valueActions": null,
+            "formula": "{200190776} + {200190779} + {200190782} ",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 4,
+                "columnType": "LABEL"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190785,
+          "questionText": "c. Balance",
+          "answers": [
+            {
+              "answerId": 1456015,
+              "sectionId": 20190136,
+              "questionId": 200190785,
+              "answerValue": "-124338338.00",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "WHOLE_AND_POSITIVE_NUMBER",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 5,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": "(a i - b iv)",
+            "valueActions": null,
+            "formula": "{200190772} - {200190784}",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 4,
+                "columnType": "LABEL"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190786,
+          "questionText": "d. Other Deductions",
+          "answers": [
+            {
+              "answerId": 1456016,
+              "sectionId": 20190136,
+              "questionId": 200190786,
+              "answerValue": "",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 6,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": "{[200190788]}",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": 3,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190791,
+          "questionText": "Total Deduction",
+          "answers": [
+            {
+              "answerId": 1456017,
+              "sectionId": 20190136,
+              "questionId": 200190791,
+              "answerValue": "248372.00",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 7,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": "(i + ii + iii)",
+            "valueActions": null,
+            "formula": "{200190049} + {200190061} + {200190190}",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 4,
+                "columnType": "NUMBER"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200190792,
+          "questionText": "e. Short-term Capital Gains on Immovable property",
+          "answers": [
+            {
+              "answerId": 1456018,
+              "sectionId": 20190136,
+              "questionId": 200190792,
+              "answerValue": "-124338338.00",
+              "rowNumber": 1,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": 200190769,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "NUMBER",
+            "options": [],
+            "controlType": "NUMERIC",
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 0,
+            "verticalOrder": 8,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": null,
+            "tableControlAction": null,
+            "helpText": "(c – d iv)",
+            "valueActions": null,
+            "formula": "{200190785} < 0 ? {200190785} : {200190785} - {200190791} > 0 ? {200190785} - {200190791} : 0",
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": true,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": [
+              {
+                "columnNumber": 4,
+                "columnType": "TEXT"
+              }
+            ],
+            "hideTreeTableQuestion": false
+          }
+        },
+        {
+          "questionId": 200200517,
+          "questionText": "Exported_from_workspace_hp",
+          "answers": [
+            {
+              "answerId": 1455087,
+              "sectionId": 20190136,
+              "questionId": 200200517,
+              "answerValue": "",
+              "rowNumber": 0,
+              "columnNumber": 0,
+              "attachments": [],
+              "pageReference": null
+            }
+          ],
+          "metadata": {
+            "dependantQuestionId": null,
+            "mainQuestionId": null,
+            "mandatory": false,
+            "validationMessage": null,
+            "validationType": null,
+            "answerType": "HIDDEN",
+            "options": [],
+            "controlType": null,
+            "inputSize": "large",
+            "answerEditable": false,
+            "orderNumber": 1,
+            "verticalOrder": 2,
+            "maxLength": null,
+            "minLength": null,
+            "defaultValue": "[{\"200190769\":\"false\"}]",
+            "tableControlAction": null,
+            "helpText": null,
+            "valueActions": null,
+            "formula": null,
+            "placeholder": null,
+            "minValue": null,
+            "maxValue": null,
+            "treeTableHeaders": null,
+            "isProfitLoss": false,
+            "entityLocationRequired": false,
+            "columnWidth": null,
+            "isHiddenQuestionNotSaved": false,
+            "dependentData": null,
+            "rowSpan": null,
+            "isMerged": null,
+            "hasDefaultValue": false,
+            "showQuestion": false,
+            "consolidate": null,
+            "hideToggle": false,
+            "dynamicMinDate": null,
+            "dynamicMaxDate": null,
+            "summary": false,
+            "treeTableColumns": null,
+            "hideTreeTableQuestion": false
+          }
+        }
+      ],
+      "trialBalanceAttachment": {
+        "attachmentCount": 0,
+        "attachment": []
+      },
+      "valueActions": null,
+      "noOfFixedHeader": 0,
+      "collapsable": false,
+      "headerShown": true,
+      "trialBalance": false,
+      "curTaxProReport": false,
+      "deferredTax": false,
+      "depTaxCol": false,
+      "taxStructureDependent": false
+    }
+  ],
+  "orderNumber": 2,
+  "horizontalOrder": null,
+  "tabNumber": 1,
+  "show": null,
+  "questions": [
+    {
+      "questionId": 200190787,
+      "questionText": "",
+      "answers": null,
+      "metadata": {
+        "dependantQuestionId": 200190786,
+        "mainQuestionId": null,
+        "mandatory": false,
+        "validationMessage": null,
+        "validationType": null,
+        "answerType": "SELECT",
+        "options": [
+          {
+            "key": "54D",
+            "value": "54D"
+          },
+          {
+            "key": "54G",
+            "value": "54G"
+          },
+          {
+            "key": "54GA",
+            "value": "54GA"
+          }
+        ],
+        "controlType": "ALPHANUMERIC",
+        "inputSize": "large",
+        "answerEditable": true,
+        "orderNumber": 0,
+        "verticalOrder": 1,
+        "maxLength": null,
+        "minLength": null,
+        "defaultValue": null,
+        "tableControlAction": null,
+        "helpText": null,
+        "valueActions": [
+          {
+            "emit": "onChange",
+            "action": "removeError",
+            "actionKey": null,
+            "actionValue": "",
+            "question": [
+              "200190787"
+            ]
+          },
+          {
+            "emit": "onChange",
+            "action": "validateDropdown",
+            "actionKey": null,
+            "actionValue": "'{[200190787]}'.split(',').includes('{200190787}') ? 'Already selected' : '' ",
+            "question": [
+              "200190787"
+            ]
+          }
+        ],
+        "formula": null,
+        "placeholder": null,
+        "minValue": null,
+        "maxValue": null,
+        "treeTableHeaders": null,
+        "isProfitLoss": false,
+        "entityLocationRequired": false,
+        "columnWidth": null,
+        "isHiddenQuestionNotSaved": false,
+        "dependentData": null,
+        "rowSpan": null,
+        "isMerged": null,
+        "hasDefaultValue": false,
+        "showQuestion": true,
+        "consolidate": null,
+        "hideToggle": false,
+        "dynamicMinDate": null,
+        "dynamicMaxDate": null,
+        "summary": false,
+        "treeTableColumns": [
+          {
+            "columnNumber": 1,
+            "columnType": "TEXT"
+          }
+        ],
+        "hideTreeTableQuestion": false
+      }
+    },
+    {
+      "questionId": 200190788,
+      "questionText": "",
+      "answers": null,
+      "metadata": {
+        "dependantQuestionId": 200190786,
+        "mainQuestionId": null,
+        "mandatory": false,
+        "validationMessage": null,
+        "validationType": "^(0|[1-9][0-9]{0,13})?$",
+        "answerType": "NUMBER",
+        "options": [],
+        "controlType": "WHOLE_AND_POSITIVE_NUMBER",
+        "inputSize": "large",
+        "answerEditable": true,
+        "orderNumber": 0,
+        "verticalOrder": 2,
+        "maxLength": null,
+        "minLength": null,
+        "defaultValue": null,
+        "tableControlAction": null,
+        "helpText": null,
+        "valueActions": null,
+        "formula": null,
+        "placeholder": null,
+        "minValue": null,
+        "maxValue": null,
+        "treeTableHeaders": null,
+        "isProfitLoss": false,
+        "entityLocationRequired": false,
+        "columnWidth": null,
+        "isHiddenQuestionNotSaved": false,
+        "dependentData": null,
+        "rowSpan": null,
+        "isMerged": null,
+        "hasDefaultValue": false,
+        "showQuestion": true,
+        "consolidate": null,
+        "hideToggle": false,
+        "dynamicMinDate": null,
+        "dynamicMaxDate": null,
+        "summary": false,
+        "treeTableColumns": [
+          {
+            "columnNumber": 2,
+            "columnType": "NUMBER"
+          }
+        ],
+        "hideTreeTableQuestion": false
+      }
+    },
+    {
+      "questionId": 200190789,
+      "questionText": "",
+      "answers": null,
+      "metadata": {
+        "dependantQuestionId": 200190786,
+        "mainQuestionId": null,
+        "mandatory": false,
+        "validationMessage": null,
+        "validationType": null,
+        "answerType": "ATTACHMENT",
+        "options": [],
+        "controlType": "ATTACHMENT",
+        "inputSize": "large",
+        "answerEditable": true,
+        "orderNumber": 0,
+        "verticalOrder": 3,
+        "maxLength": null,
+        "minLength": null,
+        "defaultValue": null,
+        "tableControlAction": null,
+        "helpText": null,
+        "valueActions": null,
+        "formula": null,
+        "placeholder": null,
+        "minValue": null,
+        "maxValue": null,
+        "treeTableHeaders": null,
+        "isProfitLoss": false,
+        "entityLocationRequired": false,
+        "columnWidth": null,
+        "isHiddenQuestionNotSaved": false,
+        "dependentData": null,
+        "rowSpan": null,
+        "isMerged": null,
+        "hasDefaultValue": false,
+        "showQuestion": true,
+        "consolidate": null,
+        "hideToggle": false,
+        "dynamicMinDate": null,
+        "dynamicMaxDate": null,
+        "summary": false,
+        "treeTableColumns": [
+          {
+            "columnNumber": 4,
+            "columnType": "ATTACHMENT"
+          }
+        ],
+        "hideTreeTableQuestion": false
+      }
+    },
+    {
+      "questionId": 200190790,
+      "questionText": "+ Add Row",
+      "answers": null,
+      "metadata": {
+        "dependantQuestionId": 200190786,
+        "mainQuestionId": null,
+        "mandatory": false,
+        "validationMessage": null,
+        "validationType": null,
+        "answerType": "SUB_TABLE_BUTTON",
+        "options": [],
+        "controlType": null,
+        "inputSize": "large",
+        "answerEditable": false,
+        "orderNumber": 0,
+        "verticalOrder": 4,
+        "maxLength": null,
+        "minLength": null,
+        "defaultValue": null,
+        "tableControlAction": null,
+        "helpText": null,
+        "valueActions": [
+          {
+            "emit": "onClick",
+            "action": "addRow",
+            "question": [
+              "200190787",
+              "200190788",
+              "200190789"
+            ],
+            "actionKey": [
+              "Add Row"
+            ],
+            "actionValue": ""
+          }
+        ],
+        "formula": null,
+        "placeholder": null,
+        "minValue": null,
+        "maxValue": null,
+        "treeTableHeaders": null,
+        "isProfitLoss": false,
+        "entityLocationRequired": false,
+        "columnWidth": null,
+        "isHiddenQuestionNotSaved": false,
+        "dependentData": null,
+        "rowSpan": null,
+        "isMerged": null,
+        "hasDefaultValue": false,
+        "showQuestion": true,
+        "consolidate": null,
+        "hideToggle": false,
+        "dynamicMinDate": null,
+        "dynamicMaxDate": null,
+        "summary": false,
+        "treeTableColumns": null,
+        "hideTreeTableQuestion": false
+      }
+    },
+    {
+      "questionId": 200191042,
+      "questionText": "",
+      "answers": null,
+      "metadata": {
+        "dependantQuestionId": null,
+        "mainQuestionId": null,
+        "mandatory": false,
+        "validationMessage": null,
+        "validationType": null,
+        "answerType": "HIDDEN",
+        "options": [],
+        "controlType": "ALPHANUMERIC",
+        "inputSize": "small",
+        "answerEditable": false,
+        "orderNumber": 1,
+        "verticalOrder": 10,
+        "maxLength": null,
+        "minLength": null,
+        "defaultValue": null,
+        "tableControlAction": null,
+        "helpText": null,
+        "valueActions": null,
+        "formula": null,
+        "placeholder": null,
+        "minValue": null,
+        "maxValue": null,
+        "treeTableHeaders": null,
+        "isProfitLoss": false,
+        "entityLocationRequired": false,
+        "columnWidth": null,
+        "isHiddenQuestionNotSaved": false,
+        "dependentData": null,
+        "rowSpan": null,
+        "isMerged": null,
+        "hasDefaultValue": false,
+        "showQuestion": false,
+        "consolidate": null,
+        "hideToggle": false,
+        "dynamicMinDate": null,
+        "dynamicMaxDate": null,
+        "summary": false,
+        "treeTableColumns": null,
+        "hideTreeTableQuestion": false
+      }
+    }
+  ],
+  "trialBalanceAttachment": {
+    "attachmentCount": 0,
+    "attachment": []
+  },
+  "valueActions": null,
+  "noOfFixedHeader": 0,
+  "collapsable": false,
+  "headerShown": true,
+  "trialBalance": false,
+  "curTaxProReport": false,
+  "deferredTax": false,
+  "depTaxCol": false,
+  "taxStructureDependent": false
+}

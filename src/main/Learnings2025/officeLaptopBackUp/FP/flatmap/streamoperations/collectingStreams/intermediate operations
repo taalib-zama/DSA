@@ -1,0 +1,30 @@
+Stream operation "
+
+
+So far in this course, we have performed numerous manipulations on lists, including sorting, filtering, and transforming elements.
+
+Now, let's categorize these operations into two main types: intermediate operations and terminal operations.
+
+
+
+Intermediate operations are those that transform a stream into another stream. They do not modify the original stream
+but instead return a new stream.
+
+
+Some common intermediate operations include:
+distinct(): Filters out duplicate values from the stream.
+sorted(): Sorts the elements in natural order.
+map(): Transforms each element in the stream into a new value.
+filter(): Retains only those elements that match a specified condition.
+
+Examples :
+List<Integer> distinctNumbers = numbers.stream().distinct().collect(Collectors.toList());
+
+List<Integer> sortedNumbers = numbers.stream().sorted().collect(Collectors.toList());
+
+List<Integer> squaredNumbers = numbers.stream().map(n -> n * n).collect(Collectors.toList());
+
+List<Integer> evenNumbers = numbers.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());
+
+
+Each of these operations takes the input stream and performs a transformation, resulting in a new stream.

@@ -1,0 +1,9 @@
+remove the duplicates and return the number of unique elements
+
+
+Solution explaination : In this code, lastUnique starts at index 0, assumed to be a unique element since it's the
+first element. Then current starts at index 1 and iterates through the array. When a new unique element is found
+(i.e., nums[current] != nums[lastUnique]), lastUnique is incremented to prepare for the next unique element, and nums[current] is copied to nums[lastUnique].
+
+                        The method returns lastUnique + 1 because lastUnique is an index, so to count the total number
+                        of unique elements, we add 1.

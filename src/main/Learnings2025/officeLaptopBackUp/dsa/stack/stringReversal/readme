@@ -1,0 +1,3 @@
+Practical applications of stacks in Java are plentiful. Here is one of them — reversing a string.
+
+We will push all characters into a stack and then pop them out to get a reversed string!
