@@ -1,4 +1,4 @@
-package mutithreading.ThreadLifecycle;
+package Multithreading.basics.ThreadLifecycle;
 
 public class ExtendingThreadClass extends Thread{
     @Override

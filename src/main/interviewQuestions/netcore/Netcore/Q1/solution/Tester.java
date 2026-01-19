@@ -7,6 +7,7 @@ public class Tester {
         // Test Case 1: Given sample
         assert solve("AbcAb", "AbZ", 3, 4) == 4;
 
+
         // Test Case 2: Edge case - L > R
         assert solve("ABC", "AB", 4, 3) == -1;
 

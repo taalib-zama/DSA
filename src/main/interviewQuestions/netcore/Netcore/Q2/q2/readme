@@ -1,0 +1,118 @@
+given an array A with N integers, N is always even.
+N/2 elements are odd, N/2 elements are even.
+
+k  - a random number.
+
+Find the maximum remainder when we sum one odd and one even number from the array A and divide it by k.
+
+1
+6
+1 2 3 4 5 6
+4
+
+odd (1,3,5), even (2,4,6)
+
+
+find_maximum_remainder(N,A,k)
+
+
+(1,2) - 3 % 4 = 3
+(1,4) - 5 % 4 = 1
+(1,6) - 7 % 4 = 3
+(3,2) - 5 % 4 = 1
+(3,4) - 7 % 4 = 3
+(3,6) - 9 % 4 = 1
+(5,2) - 7 % 4 = 3
+(5,4) - 9 % 4 = 1
+(5,6) - 11 % 4 = 3
+
+output = 3
+
+test 2 :
+A = (2,3,4,5)
+N = 4
+k = 5
+
+odd (3,5), even (2,4)
+find_maximum_remainder(N,A,k)
+
+(3,2) - 5 % 5 = 0
+(3,4) - 7 % 5 = 2
+(5,2) - 7 % 5 = 2
+(5,4) - 9 % 5 = 4
+4/5 = 1st element
+
+
+A = (1,2,3,4)
+K = 5
+even(2,4) odd (1,3)
+find_maximum_remainder(N,A,k)
+(1,2) - 3 % 5 = 3
+(1,4) - 5 % 5 = 0
+(3,2) - 5 % 5 = 0
+(3,4) - 7 % 5 = 2
+
+5 /4 = 1st element
+
+op = 3
+
+
+
+
+
+A = (1,2,3,4)
+
+
+n is always even
+
+
+0,1,
+
+
+
+
+1,2,3,4,5,6
+K = 3
+(1,2) - 3 % 3 = 0
+(1,4) - 5 % 3 = 2
+(1,6) - 7 % 3 = 1
+(3,2) - 5 % 3 = 2
+(3,4) - 7 % 3 = 1
+(3,6) - 9 % 3 = 0
+(5,2) - 7 % 3 = 1
+(5,4) - 9 % 3 = 0
+(5,6) - 11 % 3 = 2
+
+max = 2
+
+even 1,3,5
+odd = 2,4,6,7
+
+function find_maximum_remainder(N, A, k) {
+    let odd = [];
+    let even = [];
+
+    // Separate odd and even numbers
+    for (let num of A) {
+        if (num % 2 === 0) {
+            even.push(num);
+        } else {
+            odd.push(num);
+        }
+    }
+
+    let maxRemainder = 0;
+
+    // Calculate maximum remainder from sums of odd and even pairs
+    for (let o of odd) {
+        for (let e of even) {
+            let sum = o + e;
+            let remainder = sum % k;
+            if (remainder > maxRemainder) {
+                maxRemainder = remainder;
+            }
+        }
+    }
+
+    return maxRemainder;
+}

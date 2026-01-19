@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/interviewQuestions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/javaBeyondBasics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/leetcode_DSA_course" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/DSA_leetcode_problems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/JavaImpPoints" isTestSource="false" />
     </content>
   </component>
 </module>

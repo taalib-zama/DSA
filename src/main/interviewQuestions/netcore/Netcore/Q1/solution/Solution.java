@@ -12,7 +12,6 @@ public class Solution {
         if (R < L || SK.length() < L) {
             return -1;
         }
-
         //approach :
         //Convert SN to binary array with elements existing in Sk as 1.
         //2 pointer to count the max no of valid spl chars. L is 3 and R is 4.

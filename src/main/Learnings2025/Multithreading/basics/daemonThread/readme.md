@@ -1,0 +1,2 @@
+Daemon Therads - Daemon thread in Java is a special type of thread that runs in the background, providing services to other threads or performing tasks that are not critical to the application's lifecycle. Unlike user threads, daemon threads do not prevent the JVM from exiting when all user threads have finished executing. 
+They are automatically terminated when all non-daemon threads have exited or when the JVM shuts down.
