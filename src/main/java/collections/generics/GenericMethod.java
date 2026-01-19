@@ -16,7 +16,6 @@ public class GenericMethod {
         //example 2
         String[] sarr = {"One","Two","Three"};
         GenericMethod.displayDetails(sarr);
-
     }
 }
 

@@ -1,4 +1,4 @@
-package multithreading.mutithreadingBlog.UsingThreadClass;
+package officeLaptopBackUp.multithreading.mutithreadingBlog.UsingThreadClass;
 
 public class Tester {
     public static void main(String[] args) {
