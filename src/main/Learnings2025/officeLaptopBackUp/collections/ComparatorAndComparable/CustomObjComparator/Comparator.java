@@ -1,4 +1,4 @@
-package collections.ComparatorAndComparable.CustomObjComparator;
+package officeLaptopBackUp.collections.ComparatorAndComparable.CustomObjComparator;
 
 import java.util.Arrays;
 

@@ -1,4 +1,6 @@
-package collections.ComparatorAndComparable.CustomObjComparator;
+package officeLaptopBackUp.collections.ComparatorAndComparable.CustomObjComparator;
+
+import officeLaptopBackUp.collections.ComparatorAndComparable.CustomObjComparator.Person;
 
 import java.util.PriorityQueue;
 
