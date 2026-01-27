@@ -1,4 +1,4 @@
-package collections.ComparatorAndComparable.UsingLambdaExperssion;
+package officeLaptopBackUp.collections.ComparatorAndComparable.UsingLambdaExperssion;
 
 public class Car {
     String carName;
