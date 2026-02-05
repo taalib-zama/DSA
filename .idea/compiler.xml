@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/main/javaBeyondBasics/mutithreading/multithreadingPart3/multithreading/mutithreadingBlog/ThreadStopExample/Tester.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,11 +11,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaBasicsPrep" />
-        <module name="DSA" />
+        <module name="streams" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MicroserviceExamples" target="23" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="streams" options="-parameters" />
+    </option>
   </component>
 </project>

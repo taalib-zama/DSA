@@ -1,6 +1,5 @@
 package mutithreading.multithreadingPart3.multithreading.mutithreadingBlog.ThreadStopExample;
 
-import multithreading.mutithreadingBlog.UsingRunnableInterface.UsingAnonymous.MyRunnable2;
 
 public class Tester {
     public static void main(String[] args) {
