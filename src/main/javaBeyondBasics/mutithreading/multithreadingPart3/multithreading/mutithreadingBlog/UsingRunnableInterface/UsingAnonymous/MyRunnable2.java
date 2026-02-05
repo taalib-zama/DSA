@@ -1,6 +1,7 @@
 package mutithreading.multithreadingPart3.multithreading.mutithreadingBlog.UsingRunnableInterface.UsingAnonymous;
 
-import multithreading.mutithreadingBlog.UsingRunnableInterface.VanillaImplementation.MyRunnable1;
+
+import mutithreading.multithreadingPart3.multithreading.mutithreadingBlog.UsingRunnableInterface.VanillaImplementation.MyRunnable1;
 
 public class MyRunnable2 implements Runnable {
 

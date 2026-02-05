@@ -5,7 +5,7 @@ public class Test {
         System.out.println("Running the main thread: " + Thread.currentThread().getName());
 
         //start a new thread
-        multithreading.mutithreadingBlog.UsingRunnableInterface.VanillaImplementation.MyRunnable1 myRunnable = new multithreading.mutithreadingBlog.UsingRunnableInterface.VanillaImplementation.MyRunnable1();
+        MyRunnable1 myRunnable = new MyRunnable1();
         Thread myThread = new Thread(myRunnable);
         myThread.start();
     }
