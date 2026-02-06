@@ -1,0 +1,8 @@
+Q.  Explain the difference between volatile, synchronized, and Atomic variables in Java.
+
+a -volatile Variables: The volatile keyword guarantees visibility, ensuring that any read of a volatile field returns the most recent write to that field across different threads [1, 2]. It does this by preventing the CPU from caching the variable's value locally in a register or CPU cache; instead, reads and writes go directly to main memory [1, 2]. However, it only guarantees single-action atomicity.
+   Use case: A simple status flag, such as volatile boolean shutdownRequested = false;.
+   synchronized Blocks/Methods: synchronized provides both visibility and atomicity for a block of code by using locks [1, 2]. When a thread enters a synchronized block, it acquires a lock, preventing any other thread from entering that same block until the lock is released [1, 2]. This ensures that all operations within the block are completed as a single, atomic unit and that memory is properly synchronized before and after execution.
+   Use case: Methods that update an object's state across multiple variables, where consistency between all variables is crucial.
+   Atomic Variables: The java.util.concurrent.atomic package (e.g., AtomicInteger, AtomicLong, AtomicReference) provides classes that support lock-free thread-safe operations on single variables [1, 2]. They achieve thread safety using low-level, hardware-supported operations like Compare-And-Swap (CAS), which is more efficient than locking in scenarios where contention is low [1, 2].
+   Use case: High-performance counters where multiple threads increment a single integer simultaneously without requiring a full lock on an entire method.

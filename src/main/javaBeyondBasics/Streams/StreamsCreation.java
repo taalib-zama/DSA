@@ -1,4 +1,4 @@
-package javaBeyondBasics.Streams;
+package Streams;
 
 import java.util.Arrays;
 import java.util.List;
@@ -26,8 +26,8 @@ public class StreamsCreation {
         Stream<String>  stream3  = Stream.of("T", "a", "a");
 
         //4. creating stream of objects of user defined classes.
-        Stream<EmployeeClassSample> empStream = Stream.of( new EmployeeClassSample("Tom",5699.5),
-                new EmployeeClassSample("Jack",7629.2),new EmployeeClassSample("Jane",5289.8));
+        Stream<javaBeyondBasics.Streams.EmployeeClassSample> empStream = Stream.of( new javaBeyondBasics.Streams.EmployeeClassSample("Tom",5699.5),
+                new javaBeyondBasics.Streams.EmployeeClassSample("Jack",7629.2),new javaBeyondBasics.Streams.EmployeeClassSample("Jane",5289.8));
 
         //5.
 

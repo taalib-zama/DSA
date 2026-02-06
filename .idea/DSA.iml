@@ -11,7 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/interviewQuestions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/javaBeyondBasics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/leetcode_DSA_course" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Imp Points" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/solidPrinciples&amp;DesignPatterns" isTestSource="false" />
     </content>
   </component>
 </module>
