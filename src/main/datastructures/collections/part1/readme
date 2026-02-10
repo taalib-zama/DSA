@@ -1,0 +1,4 @@
+A Queue in Java is just an interface. We need a concrete implementation
+of the Queue interface to work with, in our programs
+
+.

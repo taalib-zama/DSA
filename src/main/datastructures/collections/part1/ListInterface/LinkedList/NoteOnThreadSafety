@@ -1,0 +1,18 @@
+1. How to Achieve Thread Safety with LinkedList
+There are two primary ways to handle concurrent access to a LinkedList:
+Using Collections.synchronizedList(): You can wrap an existing LinkedList to create a synchronized (thread-safe) version of it. This method provides a synchronized view of the list, meaning all its methods are wrapped in a synchronized block using a lock.
+java
+
+>> List<String> syncList = Collections.synchronizedList(new LinkedList<String>());
+
+Note: You must still manually synchronize the list when iterating over it using an iterator or for-each loop to prevent ConcurrentModificationException.
+
+
+
+2. Using Concurrent Collections: For scenarios requiring high concurrency, it is generally recommended to use classes from the java.util.concurrent package, which are designed for multi-threaded environments and offer better performance and scalability than a simple synchronized wrapper.
+If you are using the LinkedList primarily as a queue (FIFO), consider using the thread-safe ConcurrentLinkedQueue.
+If you need a deque (double-ended queue), ConcurrentLinkedDeque is the appropriate thread-safe alternative.
+If you need a blocking queue with a maximum size, LinkedBlockingQueue or LinkedBlockingDeque might be a better fit.
+
+
+
