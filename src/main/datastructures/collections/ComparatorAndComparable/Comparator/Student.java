@@ -1,4 +1,4 @@
-package officeLaptopBackUp.collections.ComparatorAndComparable.Comparator;
+package collections.ComparatorAndComparable.Comparator;
 
 public class Student {
     private String name;

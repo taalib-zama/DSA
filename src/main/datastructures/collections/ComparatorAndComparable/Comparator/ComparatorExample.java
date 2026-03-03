@@ -1,4 +1,4 @@
-package officeLaptopBackUp.collections.ComparatorAndComparable.Comparator;
+package collections.ComparatorAndComparable.Comparator;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -11,6 +11,11 @@ public class ComparatorExample {
                 new Student("Bob", 90.0),
                 new Student("Charlie", 85.5)
         );
+
+        //sorting based on grade using grade comparator
+        List<Student> students2 = students.stream()
+                .sorted(Comparator.comparingDouble(Student::getGrade))
+                .toList();
 
         // Sort by grade, then by name
         students.sort(Comparator.comparingDouble(Student::getGrade)
