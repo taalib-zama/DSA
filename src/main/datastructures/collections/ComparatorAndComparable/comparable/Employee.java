@@ -2,7 +2,7 @@ package collections.ComparatorAndComparable.comparable;
 
 public class Employee implements Comparable<Employee> {
     private String name;
-    private int age;
+    private Integer age;
 
     public Employee(String name, int age) {
         this.name = name;

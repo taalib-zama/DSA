@@ -11,6 +11,7 @@ public class ComparableExample {
         };
 
         Arrays.sort(employees); // Sort using Comparable
+        //this will only work if employee class implements comparable intrface and implements compareTO method.
         System.out.println(Arrays.toString(employees));
     }
 }
