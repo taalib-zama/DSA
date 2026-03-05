@@ -1,0 +1,10 @@
+given a string ABC - find all the permutations of this and store in list.
+do this with with native and functional programming.
+create a new repo and start on it.
+First do all the strings, sorting and arrays problems.
+
+
+
+pseudocode :
+1. abc -> make it into char array -> [a,b,c]
+pick first
