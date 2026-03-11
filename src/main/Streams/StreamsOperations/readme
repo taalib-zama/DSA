@@ -1,0 +1,5 @@
+checking the min and max Product with hightst and lowest rank :
+//find product with highest rank :
+        Product highestRankProduct = products.stream()
+                .max(Comparator.comparing(Product::getRank))
+                .orElse(null);
