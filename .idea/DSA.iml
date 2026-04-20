@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/solidPrinciples&amp;DesignPatterns" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Streams" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/2026" isTestSource="false" />
     </content>
   </component>
 </module>

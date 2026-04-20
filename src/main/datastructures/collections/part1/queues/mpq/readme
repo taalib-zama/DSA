@@ -1,0 +1,14 @@
+//priority queue implementation using a linked list. The elements are ordered based on their priority, with the highest priority element at the front of the queue. The enqueue operation adds an element to the queue based on its priority, while the dequeue operation removes the highest priority element from the front of the queue. This implementation allows for efficient insertion and removal of elements while maintaining the order of priorities.
+# Priority Queue Implementation using Linked List
+A priority queue is a data structure that allows for efficient insertion and removal of elements based on their priority. In this implementation, we will use a linked list to maintain the order of elements based on their priority.
+## Enqueue Operation
+The enqueue operation adds an element to the priority queue based on its priority. The new element is
+inserted into the linked list in such a way that the highest priority element is always at the front of the queue. This ensures that when we dequeue an element, we always remove the one with the highest priority.
+## Dequeue Operation
+The dequeue operation removes the highest priority element from the front of the queue. Since the highest priority
+element is always at the front of the linked list, this operation can be performed efficiently by simply removing the first node of the list.
+## Benefits of Using a Linked List
+Using a linked list for the priority queue allows for dynamic memory allocation, which means that the queue
+can grow and shrink as needed without the need for resizing. Additionally, it allows for efficient insertion and removal of elements while maintaining the order of priorities.
+## Conclusion
+This implementation of a priority queue using a linked list provides an efficient way to manage elements based on

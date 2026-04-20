@@ -40,10 +40,22 @@ Ex : list.stream()
 
 
 
-filter chaining : 
+filter chaining :
+
+Ex : list.stream()
+.filter(person -> person.getName() != null ) // Filtering the object where name is not null
+.filter(person -> person.getAge() > 18 ) // Filtering the objects where age is greater than 18
+.filter(person -> person.getAge() < 60) // Filtering the objects where age is less than 60
+.forEach(System.out::println);
+
 
 
 2. Mapping operation :     <R> Stream<R> map(Function<? super T, ? extends R> mapper)
+
+   list.stream()
+   .map(name -> name.toUpperCase()) //map() takes an input of Function<T, R> type.
+   .forEach(System.out::println);
+
 
 count occourence of a character in a string :
 mapToInt()

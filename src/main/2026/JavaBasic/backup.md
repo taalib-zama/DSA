@@ -1,0 +1,1 @@
+java.nio.file.FileSystemException: /Users/taalibzama/IdeaProjects/DSA/src/main/2026/JavaBasic/backup.md: No space left on device
