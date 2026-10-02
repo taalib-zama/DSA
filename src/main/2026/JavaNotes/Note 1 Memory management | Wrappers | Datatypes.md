@@ -141,3 +141,6 @@ For every primitive type in Java, there is a corresponding class in the java.lan
 Using a wrapper class is necessary when we need to distinguish between a valid default value (like 0) and no value (null). For example, in a banking app, an account balance of 0 is very different from a null balance (which might imply the account data hasn’t loaded yet).
 
 Since Java 9, the constructors for these classes (e.g., new Integer(5)) have been deprecated. Instead, we use static factory methods like valueOf(). These methods are more efficient because they can reuse commonly used objects rather than creating new ones every time.
+
+
+Autoboxing and unboxing occur at compile time, not at runtime. The compiler generates ordinary method calls in the compiled bytecode to handle the conversion.

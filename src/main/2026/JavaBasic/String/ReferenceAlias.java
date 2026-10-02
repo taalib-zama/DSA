@@ -1,4 +1,4 @@
-package JavaBasic;
+package JavaBasic.String;
 
 public class ReferenceAlias {
     public static void main(String[] args) {
